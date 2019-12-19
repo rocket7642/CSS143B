@@ -2,49 +2,38 @@
 
 ## How to Clone This Repo To Your Machine
 
-On the [class repo page](https://github.com/pdgetrf/UWB_CSS342_2019_Fall), click the green "Clone or download" button. You can either git clone the repo or download a zip file. Here is an example on linux/mac:
+On the [class repo page](https://github.com/pdgetrf/CSS143B), click the green "Clone or download" button. You can either git clone the repo or download a zip file. Here is an example on linux/mac:
 
 ```console
-pdu:~$ git clone https://github.com/pdgetrf/UWB_CSS342_2019_Fall.git
-Cloning into 'UWB_CSS342_2019_Fall'...
-remote: Enumerating objects: 227, done.
-remote: Counting objects: 100% (227/227), done.
-remote: Compressing objects: 100% (201/201), done.
-remote: Total 227 (delta 86), reused 91 (delta 20), pack-reused 0
-Receiving objects: 100% (227/227), 5.63 MiB | 1.07 MiB/s, done.
-Resolving deltas: 100% (86/86), done.
-pdu:~$
-pdu:~$ cd UWB_CSS342_2019_Fall/
-pdu:~/UWB_CSS342_2019_Fall$ ls
-README.md class1    images
+pdu:~$ git clone https://github.com/pdgetrf/CSS143B.git
 ```
 And there's a [tutorial](https://help.github.com/en/articles/cloning-a-repository) to how to clone a github repo on **ALL PLATFORMS**. We will use git a lot in this course so clone is the "suggested way".
 
 ## Course Info
-This course is designed as a fast-paced course along with CSS 343, in order to prepare students for more advanced level CSS courses. This course is integrating mathematical principles with detailed instruction in computer programming. We will Explore mathematical reasoning and discrete structures through object-oriented programming. Topics include algorithm analysis, basic abstract data types, and data structures. 
+Transition from basic programming skills to a rigorous process of software development. Familiarization with higher level programming techniques (recursion, generic programming, stacks, queues, trees, searching, and sorting). Emphasizes connection between algorithmic thought and implementation. 
 
 | Key Info ||
 |------------|-----------------|
-| Date & Time | TTh 8pm - 10pm |
+| Date & Time | TTh p5m - 7pm |
 | Lecturer     | Dr. [Peng Du](https://www.linkedin.com/in/peng-du-ph-d-14b0a11b) |
 | Email        | pengdu@uw.edu ([CSS342] MUST show on subject) |
 | Lecture Location | UW1([map](https://www.google.com/maps/place/UW1,+Campus+Way+NE,+Bothell,+WA+98011/@47.7589141,-122.1927826,17z/data=!3m1!4b1!4m5!3m4!1s0x54900e656ea5e705:0x76bf30aa903fd5d4!8m2!3d47.7589141!4d-122.1905939)) 021   |
-| Office hours | 7pm - 8pm Tuesday & Thursday |
+| Office hours | TBD |
 
 ## Prerequisites
-A minimum grade of 2.8 in either CSS 133, CSS 143, CSE 143, or CSS 162; and minimum grade of 2.5 in either STMATH 125 or MATH 125.
+Minimum grade of 2.7 in CSS 161, CSS 142, or CSE 142. Co-requisite: CSSSKL 143. 
 
 ## Course Objectives
 The objectives of this course are for students to: 
-- Understand how to analyze a problem and design a solution.
-- Have a basic understanding of the C++ language and the basics of object-oriented programming.
+- Develop a rigorous software development process
+- Familiarization with higher level programming techniques
 - Know basic data structures, algorithms, and the tradeoffs among memory, running time, and implementation time associated with them. 
 
 ## Course Learning Outcomes
 Upon successful completion of the course, students shall be able to:
+- Be fluent with object oriented programming using JAVA from concept to realization
 - Analyze problem and design solutions with basic data structures, algorithms.
 - Make trade off between solutions based on performance analysic in terms of time and space complexity.
-- Implement solutions proficiently in C++ with STL (Standard Template Library).
 - Write well-structured and test-friendly codes.
 - Write solid testing with popular testing frameworks such as Googletest.
 - Debug programs with command line and IDE tools, and online community like www.stackoverflow.com.
@@ -59,18 +48,14 @@ Upon successful completion of the course, students shall be able to:
 ### Coursework Distribution 
 | Course Work | Grading % |
 |-------------|-----------|
-| Homeworks | 35        |
-| Qizzes      | 20        |
-| Midterm exam       | 15        |
-| Final exam      | 15        |
-| Labs and in-class work | 10 |
-| Participation | 5 |
+| Homeworks | 30        |
+| Reading Quizzes and Activities      | 5        |
+| Midterm exam       | 40        |
+| Final exam      | 25        |
 | Total | 100 |
 
 ### Grading Rubric
-All grades will be listed as percentages in the Canvas LMS. The conversion table below will help you determine your final grade. For example, if you earn 950 points (or 95%) you will get a 4.0. If you earn 750 points (or 75%) you will earn a 2.0. 
-
-![Image of Grading Rubric](https://github.com/pdgetrf/UWB_CSS342_2019_Fall/blob/master/images/gradingrubric.png)
+7% = 4.0 and 60% = 0.7
 
 ## Textbooks
 ### Required
