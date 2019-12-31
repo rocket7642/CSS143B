@@ -1,4 +1,4 @@
-# CSS 342 Data Structures, Algorithms, and Discrete Mathematics I
+# CSS 143 Computer Programming II
 
 ## How to Clone This Repo To Your Machine
 
@@ -14,7 +14,7 @@ Transition from basic programming skills to a rigorous process of software devel
 
 | Key Info ||
 |------------|-----------------|
-| Date & Time | TTh p5m - 7pm |
+| Date & Time | MW 5:45pm - 7:45pm |
 | Lecturer     | Dr. [Peng Du](https://www.linkedin.com/in/peng-du-ph-d-14b0a11b) |
 | Email        | pengdu@uw.edu ([CSS342] MUST show on subject) |
 | Lecture Location | UW1([map](https://www.google.com/maps/place/UW1,+Campus+Way+NE,+Bothell,+WA+98011/@47.7589141,-122.1927826,17z/data=!3m1!4b1!4m5!3m4!1s0x54900e656ea5e705:0x76bf30aa903fd5d4!8m2!3d47.7589141!4d-122.1905939)) 021   |
@@ -25,22 +25,21 @@ Minimum grade of 2.7 in CSS 161, CSS 142, or CSE 142. Co-requisite: CSSSKL 143.
 
 ## Course Objectives
 The objectives of this course are for students to: 
-- Develop a rigorous software development process
-- Familiarization with higher level programming techniques
-- Know basic data structures, algorithms, and the tradeoffs among memory, running time, and implementation time associated with them. 
+- Transition from basic programming skills to a rigorous process of software development
+- Becoming familiar with higher level programming techniques (object‐orientation, recursion, inheritance, generic programming), constructs (lists, stacks, queues, trees) and algorithms (searching, sorting)
 
 ## Course Learning Outcomes
 Upon successful completion of the course, students shall be able to:
-- Be fluent with object oriented programming using JAVA from concept to realization
+- Be fluent with object oriented programming using JAVA from concept to realization.
 - Analyze problem and design solutions with basic data structures, algorithms.
 - Make trade off between solutions based on performance analysic in terms of time and space complexity.
 - Write well-structured and test-friendly codes.
-- Write solid testing with popular testing frameworks such as Googletest.
 - Debug programs with command line and IDE tools, and online community like www.stackoverflow.com.
 - Work comfortably with source control and online repo such as Git and www.github.com.
 
 ## Class Communication
-- Canvas Learning Management System (LMS) will be used for announcements, discussion forums, assignment posting and submissions, and individual grades. Please visit the Canvas Site to access the Canvas page for this class.
+- Canvas Learning Management System (LMS) will be used for homework, quiz and exams.
+- Discord will be used for announcements, discussion forums, assignment posting, and individual grades.
 - For any direct/individual communication with your instructor please use email (please do not use Canvas messaging/mail).
 - For group discussion, please use disco/zoom/slacker.
 
@@ -59,16 +58,7 @@ Upon successful completion of the course, students shall be able to:
 
 ## Textbooks
 ### Required
-- Data Abstraction & Problem Solving With C++: Walls & Mirrors, Sixth or Seventh Edition, Frank M. Carrano, Addison Wesley, 2013, ISBN-10: 0132923726, ISBN-13: 978-0132923729
-- [An Active Introduction to Discrete Mathematics and Algorithms, Charles Cusack, David Santos, GNU Free Software, 2014](https://cusack.hope.edu/Notes/Notes/Books/Active%20Introduction%20to%20Discrete%20Mathematics%20and%20Algorithms/ActiveIntroToDiscreteMathAndAlgorithms.2.6.3.pdf)
-
-### Optional
-- C++
-  - [A Tour of C++ (2nd Edition) (C++ In-Depth Series)](https://www.amazon.com/Tour-2nd-Depth-Bjarne-Stroustrup/dp/0134997832/ref=zg_bs_9045760011_1?_encoding=UTF8&psc=1&refRID=NBRBVSJH9JQK0Y6WFGVP)
-  - [C++ Primer (5th Edition)](https://www.amazon.com/Primer-5th-Stanley-B-Lippman/dp/0321714113/ref=zg_bs_9045760011_7?_encoding=UTF8&psc=1&refRID=NBRBVSJH9JQK0Y6WFGVP)
-
-- Data Structure
-  - [Data Structures and Algorithm Analysis in C++, Third Edition (Dover Books on Computer Science)](https://www.amazon.com/Structures-Algorithm-Analysis-Computer-Science/dp/048648582X/ref=sr_1_4?keywords=data+structure+c%2B%2B&qid=1569107841&s=books&sr=1-4)
+- Savitch, Walter, Absolute Java, 6th Edition, Pearson, 2016, ISBN 0134041674.
 
 ## Lecture
 - Read the relevant textbook chapters before coming to class.
