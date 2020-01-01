@@ -90,20 +90,19 @@ When multiple files are required for an assignment, they must be in a a ZIP file
 ## Tentative Schedule
 The following table provides approximate, high-level ordering of topics, not all sections in all chapters in the book are covered.  It is also a tentative schedule subject to change, and will be announced on canvas, in class and/or through our discussion channels. Furthermore, the book topics listed below are provided as guidance. You are strongly encouraged to consult other sources for further references.
 
-|  Date | Week | Topics | Chapters |
-| --- | --- | --- | --- |
-|  09/26 | 1 | Course intro<br/>C++ review [pointer, refernece, memory allocation]<br/>Testing basics<br/>Debugging basics (gdb, IDE)<br/>Git basics<br/>Dev environment setup [makefile, IDE] | C++ ch 1, ch interlue 2, apendx A & B |
-|  10/1, 10/3 | 2 | C++ review cont. [object, struct, class [constructors, relationship, polymorphism, virtual class, template]]<br/>Unit testing with Googletest<br/>cmake<br/>OOP design | C++ ch interlude {1, 5, 6, 8},  ch {3, 4 & 11} |
-|  10/8, 10/10 | 3 | ADT design | C++ ch {8, 9, 12} |
-|  10/15, 10/17 | 4 | Linked list<br/>Iterator<br/>C++ Standard Template Library (STL) | C++ ch {6, 7, 13, 14} |
-|  10/22, 10/24 | 5 | Stack, Queue<br/>Recursion, <br/>Midterm review | C++ ch {2, 5.3, 6, 13} |
-|  10/29, 10/31 | 6 | Midterm (2 hr on Tuesday)<br/>Tree, binary search tree if time allows | C++ ch 15 |
-|  11/5, 11/7 | 7 | Back tracking<br/>Binary Tree<br/>Hashing algorithm (including consistent hashing)<br/>Math induction | C++ ch {10,18}, Math {8.1}, appendix E |
-|  11/12, 11/14 | 8 | Algorithm complexity analysis<br/>Sorting algorithms | C++ ch 11, Math {7} |
-|  11/19, 11/21 | 9 | Guest lecture<br/>Propositional logic | Math {4} |
-|  11/26, 11/28 | 10 | Graph (topology sort)<br/>Thanksgiving | C++ {20} |
-|  12/3, 12/5 | 11 | Review/Buffer |  |
-|  12/10 | 12 | **Final (2hr)** |  |
+|  Date | Week | Topics |
+| --- | --- | --- |
+|  1/6, 1/8 | 1 | Course intro <br/>Java programming basic |
+|  1/13, 1/15 | 2 | 1/13 Java class Intro<br/>1/15  Overloading, constructors, and encapsulation |
+|  1/20, 1/22 | 3 | 1/20 No lecture<br/>1/22 Abstract Data Type (ADT) |
+|  1/27, 1/29 | 4 | 1/27 Midterm & debugging and exception<br/>1/29 LinkedList ADT |
+|  2/3, 2/5 | 5 | 2/3 Stack and Queue ADT<br/>2/5 Recursion |
+|  2/10, 2/12 | 6 | 2/10 Binary (Search) Tree ADT and Binary Tree overall, Morse tree<br/>2/12 Midterm + Special topic: A tale of two linkedlist reversals |
+|  2/17, 2/19 | 7 | 2/17 Dictionary, Java collections review<br/>2/19 Sorting |
+|  2/24, 2/26 | 8 | 2/24 Algorithm complexity analysis<br/>2/26 Guest lecture |
+|  3/2, 3/4 | 9 | 3/2 Math Induction<br/>3/4 Propositional logic |
+|  3/9, 3/11 | 10 | Buffer |
+|  3/14 - 3/20 | 11 | 3/16 Final exam |
 
 ## Policy
 All the materials are either in class, or online. In-class only materials will be unavailable unless you attend class. The only exceptions are: you are terribly sick, family emergency, or academic event. In such cases, you should provide evidence (e.g., medical doctor’s note). 
