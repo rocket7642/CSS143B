@@ -17,7 +17,7 @@ Transition from basic programming skills to a rigorous process of software devel
 | Date & Time | MW 5:45pm - 7:45pm |
 | Lecturer     | Dr. [Peng Du](https://www.linkedin.com/in/peng-du-ph-d-14b0a11b) |
 | Email        | pengdu@uw.edu ([CSS342] MUST show on subject) |
-| Lecture Location | UW1([map](https://www.google.com/maps/place/UW1,+Campus+Way+NE,+Bothell,+WA+98011/@47.7589141,-122.1927826,17z/data=!3m1!4b1!4m5!3m4!1s0x54900e656ea5e705:0x76bf30aa903fd5d4!8m2!3d47.7589141!4d-122.1905939)) 021   |
+| Lecture Location | UW1([map](https://www.google.com/maps/place/UW1,+Campus+Way+NE,+Bothell,+WA+98011/@47.7589141,-122.1927826,17z/data=!3m1!4b1!4m5!3m4!1s0x54900e656ea5e705:0x76bf30aa903fd5d4!8m2!3d47.7589141!4d-122.1905939)) 051   |
 | Office hours | TBD |
 
 ## Prerequisites
