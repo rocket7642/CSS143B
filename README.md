@@ -75,7 +75,7 @@ All students are expected to have unfettered access to a personal computer (Wind
 Since JAVA will be used for programming and it is cross-platform ("write once, run anywhere"), there's no specific requirement for what Operating System you can use for coding. 
 
 ## Dev Tools
-Recommended: [Intellij Idea](https://www.jetbrains.com/idea/). This has a free community version and also [free for students](https://www.jetbrains.com/student/). Feel free to use any other development environments too, being Eclipse or even VIM. For homeworks only the source codes are of interests for grading.
+Recommended: [Intellij Idea](https://www.jetbrains.com/idea/). This has a free community version and also [free for students](https://www.jetbrains.com/student/). Feel free to use any other development environments too, it being Eclipse or even VIM. For homeworks only the source codes are of interests for grading.
 
 ## What to bring to lecture
 - A laptop or tablet: We'll do plenty of live coding on a computer during the lecture, and your device will be used for taking quizzes, exams, etc. 
