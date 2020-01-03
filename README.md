@@ -68,6 +68,14 @@ All grades will be listed as percentages in the Canvas LMS. The conversion table
 - It is highly recommended that you take notes rather than depend solely on the slides.
 - There will be live coding and debugging by both the lectuer and students.
 
+## Computer
+All students are expected to have unfettered access to a personal computer (Windows, Mac, Linux, etc.) or netbook with broadband-speed Internet access. Student access to University computing resources fulfills this requirement. All students are assumed to be proficient with an office productivity suite and email. All students must enable their Canvas Notifications for this course (Links to an external site.) to be at least as frequent as the defaults; if I post announcements, etc. via Canvas, you need to be able to receive them. All students must have a valid email account that they check on a daily basis.
+
+## What to bring to lecture
+- A laptop or tablet: We'll do plenty of live coding on a computer in lecture, and your device will be used for taking quizzes, exams, etc. 
+- A writing tool and paper: Most of the work we do with programming will be done by hand. This is because coding is not about typing things into a computer but about thinking how to tell the computer what to do.
+- The textbook: We'll be talking through examples, etc.
+
 ## Class Attendance
 - Class attendance is not mandatory. However, I strongly encourage you to come to class as there is generally a direct correlation between attendance and performance (aka, grade).
 - Quizzes and exams will be given during class.
@@ -83,7 +91,7 @@ The program is graded upon the follow aspects:
 - Correctness – determined through test cases and memory checker run against code 
 - Efficiency
 
-You can use any IDE or editor for coding and testing your laboratory and programming assignments. Regardless of what environment and version you use to develop your programs, it should be compiled with g++ and executed on a Linux operating system for grading.  If your program does not compile or does not run in the graded environments it will be deemed incorrect and receive zero points. This is true even if it works with others OS's or compilers. This means that *if you use a different development environment you should port and test your code to the prescribed environment before submitting it*. The Linux lab is available for this purpose if you do not have a prescribed local development environment. 
+You can use any IDE or editor for coding and testing your laboratory and programming assignments. Regardless of what environment and version you use to develop your programs, for grading it will be compiled in a standard environment (to be announced in class).  If your program does not compile or does not run in the graded environments it will be deemed incorrect and receive zero points. This is true even if it works with others OS's or compilers. This means that *if you use a different development environment you should verify (compile and run test) your code to the prescribed environment before submitting it*. 
 
 When multiple files are required for an assignment, they must be in a a ZIP file. The ZIP file should contains source code (in ASCII Text) and results of the program (report as a MS word or pdf document); never submit executables. Please check each homework specification about what you to write in your report. For grading correctness the files will be extracted from the ZIP file, the code will be compiled and tested by executing several test cases. 
 
