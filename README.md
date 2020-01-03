@@ -41,7 +41,7 @@ Upon successful completion of the course, students shall be able to:
 - Canvas Learning Management System (LMS) will be used for homework, quizzes, and exams.
 - Discord will be used for announcements, discussion forums, assignment posting, and individual grades.
 - For any direct/individual communication with your instructor please use email (please do not use Canvas messaging/mail).
-- For group discussion, please use Discord/Zoom/Slack.
+- For group discussion, please use Discord (invitation in canvas).
 
 ## Grading
 ### Coursework Distribution 
