@@ -7,7 +7,7 @@ On the [class repo page](https://github.com/pdgetrf/CSS143B), click the green "C
 ```console
 pdu:~$ git clone https://github.com/pdgetrf/CSS143B.git
 ```
-And there's a [tutorial](https://help.github.com/en/articles/cloning-a-repository) to how to clone a github repo on **ALL PLATFORMS**. We will use git a lot in this course so clone is the "suggested way".
+And there's a [tutorial](https://help.github.com/en/articles/cloning-a-repository) on how to clone a github repo on **ALL PLATFORMS**. We will use git a lot in this course. 
 
 ## Course Info
 Transition from basic programming skills to a rigorous process of software development. Familiarization with higher-level programming techniques (recursion, generic programming, stacks, queues, trees, searching, and sorting). Emphasizes the connection between algorithmic thought and implementation. 
@@ -70,6 +70,12 @@ All grades will be listed as percentages in the Canvas LMS. The conversion table
 
 ## Computer
 All students are expected to have unfettered access to a personal computer (Windows, Mac, Linux, etc.) or netbook with broadband-speed Internet access. Student access to University computing resources fulfills this requirement. All students are assumed to be proficient with an office productivity suite and email. All students must enable their Canvas Notifications for this course (Links to an external site.) to be at least as frequent as the defaults; if I post announcements, etc. via Canvas, you need to be able to receive them. All students must have a valid email account that they check on a daily basis.
+
+## Operating System
+Since JAVA will be used for programming and it is cross-platform ("write once, run anywhere"), there's no specific requirement for what Operating System you can use for coding. 
+
+## Dev Tools
+Recommended: [Intellij Idea](https://www.jetbrains.com/idea/). This has a free community version and also [free for students](https://www.jetbrains.com/student/). Feel free to use any other development environments too, being Eclipse or even VIM. For homeworks only the source codes are of interests for grading.
 
 ## What to bring to lecture
 - A laptop or tablet: We'll do plenty of live coding on a computer during the lecture, and your device will be used for taking quizzes, exams, etc. 
