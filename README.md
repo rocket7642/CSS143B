@@ -114,8 +114,8 @@ The following table provides an approximate, high-level ordering of topics, not 
 |  2/10, 2/12 | 6 | 2/10 Binary (Search) Tree ADT and Binary Tree overall, Morse tree<br/>2/12 Midterm + Special topic: A tale of two linkedlist reversals |
 |  2/17, 2/19 | 7 | 2/17 Dictionary, Java collections review<br/>2/19 Sorting |
 |  2/24, 2/26 | 8 | 2/24 Algorithm complexity analysis<br/>2/26 Guest lecture |
-|  3/2, 3/4 | 9 | 3/2 Math Induction<br/>3/4 Propositional logic |
-|  3/9, 3/11 | 10 | Buffer |
+|  3/2, 3/4 | 9 | 3/2 Java Packages, and Documentation<br/>3/4 In class-project |
+|  3/9, 3/11 | 10 | Buffer/Final review |
 |  3/14 - 3/20 | 11 | 3/16 Final exam |
 
 ## Policy
