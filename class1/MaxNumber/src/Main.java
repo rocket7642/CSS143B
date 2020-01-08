@@ -69,7 +69,7 @@ public class Main {
             MaxNumberAnswer actual = answers[i];
 
             if (!expected.equals(actual)) {
-                System.out.printf("Expected %s, actual %s\n", expected, actual);
+                System.out.printf("Case %d: Expected %s, actual %s\n", i, expected, actual);
                 return false;
             }
         }
