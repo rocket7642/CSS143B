@@ -17,6 +17,14 @@ class MaxNumberAnswer{
         return maxNumber == that.maxNumber &&
                 foundAnswer == that.foundAnswer;
     }
+
+    @Override
+    public String toString() {
+        return "MaxNumberAnswer{" +
+                "maxNumber=" + maxNumber +
+                ", foundAnswer=" + foundAnswer +
+                '}';
+    }
 }
 
 public class Main {
@@ -39,7 +47,7 @@ public class Main {
 
     public static boolean testFindMax() {
         // prepare the answers
-        int cases[][] = {
+        int inputs[][] = {
                 {},
                 {1},
                 {-2, 2},
@@ -49,14 +57,19 @@ public class Main {
                 {-4, -4, -4},
                 {-1, 0, 9, 3, 2}};
         int values[] = {-1, 1, 2, 3, 3, 3, -4, 9};
-        MaxNumberAnswer[] answers = new MaxNumberAnswer[cases.length];
-        for (int i=0; i<cases.length; i++) {
+        MaxNumberAnswer[] answers = new MaxNumberAnswer[inputs.length];
+        for (int i=0; i<inputs.length; i++) {
             answers[i] = new MaxNumberAnswer(values[i], (i==0 ? false : true));
         }
 
         // compare answer. return false if any case fails. true otherwise
-        for (int i=0; i<cases.length; i++) {
-            if (!findMax(cases[i]).equals(answers[i])) {
+        for (int i=0; i<inputs.length; i++) {
+
+            MaxNumberAnswer expected = findMax(inputs[i]);
+            MaxNumberAnswer actual = answers[i];
+
+            if (!expected.equals(actual)) {
+                System.out.printf("Expected %s, actual %s\n", expected, actual);
                 return false;
             }
         }
