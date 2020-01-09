@@ -8,7 +8,7 @@ public class Main {
         System.out.println("testBinarySearch " + (testBinarySearch() ? "PASSED" : "FAILED"));
     }
 
-    public static int binarySearch(int[] data) {
+    public static int binarySearch(int[] data, int target) {
         // homework
         return -1; // place holder
     }
