@@ -19,7 +19,7 @@ isValid: false
 
 Otherwise *val* should be the number that appears the most times, and *isValid* should be true.
 
-A basic code structure is provided at **homework1/problem_3/src/Main.java**. This file **must** be used and you can **only** write in the findHighestFrequencyNumber(...) function. ***DO NOT CHANGE*** other part of the code.
+A basic code structure is provided at [homework1/problem_3/src/Main.java](https://github.com/pdgetrf/CSS143B/blob/master/homework/homework1/problem_3/src/Main.java). This file **must** be used and you can **only** write in the findHighestFrequencyNumber(...) function. ***DO NOT CHANGE*** other part of the code.
 
 When the homework is done, your code should print:
 
