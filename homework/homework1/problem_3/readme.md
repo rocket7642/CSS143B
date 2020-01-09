@@ -1,6 +1,6 @@
 ## (30pt) Number That Appears The Most Times
 
-Write a function to find the number that appears the most times (highest frequency) in an integer array. 
+Write a function to find the number that appears the most times (highest frequency) in an integer array. All tests are provided to you already.
 
 For example:
 
