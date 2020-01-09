@@ -27,7 +27,7 @@ Problem 4 has 10 point as following: Send me a private message in Discord. Descr
 - I will give partial credits for this homework. If you cannot finish some part, add comments describing your thinking.
 - OK to search web for help. Give credits in your code if you use any. 
 - Homework is to be done by yourself. Okay to discuss with others.
-- No late submission without explanation and permission.
+- Late submission without explanation AND permission will receive ZERO point.
     
     
 
