@@ -2,7 +2,7 @@
 
 Write a function to perform binary search in a **sorted** integer array. Also write as many tests as you think necessary to demonstrate your binary search code works correctly. 
 
-The binary search function return the **index** of the input value if found. -1 otherwise.
+The binary search function takes an integer to find, and returns the **index** of the input value if found. -1 otherwise.
 
 Binary search was discussed in class as part of the search problem. If you need help, [here](https://www.geeksforgeeks.org/binary-search/) is a good start. Note that binary search can be implemented with or without recursion. If you are comfortable with recursion already, feel free to use it. Otherwise for-loop would do just fine.
 
