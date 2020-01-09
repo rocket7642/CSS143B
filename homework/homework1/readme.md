@@ -25,7 +25,8 @@ Problem 4 has 10 point as following: "Send me a private message in Discord. Desc
 
 - Start early. Ask questions. Come to study group. 
 - I will give partial credits for this homework. If you cannot finish some part, add comments describing your thinking.
-- OK to search web to finish help. Give credits in your code if you use any.
+- OK to search web for help. Give credits in your code if you use any. 
+- Homework is to be done by yourself. Okay to discuss with others.
 - No late submission without explanation and permission.
     
     
