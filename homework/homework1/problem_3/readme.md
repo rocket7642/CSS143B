@@ -8,7 +8,7 @@ For example:
 - In [2, 2], number 2 appeared twice, and there is no other number, therefore findHighestFrequencyNumber(...) should return 2
 - In [7, 8, 9, 8, 8], number 8 appeared 3 times, number 7 and 9 both only appeared once, therefore findHighestFrequencyNumber(...) should return 8
 
-To simplified things, we do not check the case for having a tie such as [5, 5, 9, 9]. 
+To simplify things, we do not check the case for having a tie such as [5, 5, 9, 9]. 
 
 The returned result from findHighestFrequencyNumber() is an object of type Answer. Similar to what we did in the findMax() example in class. If the input array is empty, the returned Answer object will have:
 
