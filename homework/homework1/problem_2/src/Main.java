@@ -8,7 +8,7 @@ public class Main {
         System.out.println("testBubbleSort " + (testBubbleSort() ? "PASSED" : "FAILED"));
     }
 
-    public static void findHighestFrequencyNumber(int[] data) {
+    public static void bubbleSort(int[] data) {
         // homework
         return; // place holder
     }
