@@ -10,7 +10,9 @@ For example:
 - Searching 9 in array [1, 3, 6, 8, 9] should return 4.
 - Searching 7 in array [1, 3, 6, 8, 9] should return -1 because 7 is not found in this array.
 
-You may pick the assumption whether the input array is in ascending or descending sorted order and please indicate your assumption in comments.
+You may pick the assumption whether the input array is in ascending or descending sorted order and please indicate your assumption in comments. Your test can assume input array is correctly sorted. 
+
+If there's duplicated numbers in the array, you can choose how the search code behaves. Returning the first found index is OK.
 
 Binary search was discussed in class as part of the search problem. If you need help, [here](https://www.geeksforgeeks.org/binary-search/) is a good start. Note that binary search can be implemented with or without recursion. If you are comfortable with recursion already, feel free to use it. Otherwise for-loop would do just fine.
 
