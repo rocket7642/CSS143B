@@ -27,5 +27,4 @@ When the homework is done, your code should print:
 testFindHighestFrequencyNumber PASSED
 ```
 
-
-
+It is OK to change the order of the original array.
