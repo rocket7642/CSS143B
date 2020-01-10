@@ -59,7 +59,7 @@ public class Main {
         int values[] = {-1, 1, 2, 3, 3, 3, -4, 9};
         MaxNumberAnswer[] answers = new MaxNumberAnswer[inputs.length];
         for (int i=0; i<inputs.length; i++) {
-            answers[i] = new MaxNumberAnswer(values[i], (i==0 ? false : true));
+            answers[i] = new MaxNumberAnswer(values[i], inputs[i].length!=0);
         }
 
         // compare answer. return false if any case fails. true otherwise
