@@ -7,6 +7,18 @@
 
 ### Submission 
 Put your solutions into 3 folders called problem_1, problem_2 and problem_3. Zip all three folders them into a single file and submit through canvas. Only the Main.java files in all three folders will be used for grading.
+
+The file structure should look like this:
+```bash
+pdu:~/submission$ tree
+.
+├── problem_1
+│   └── Main.java
+├── problem_2
+│   └── Main.java
+└── problem_3
+    └── Main.java
+```
     
 ### Problems To Solve
 
