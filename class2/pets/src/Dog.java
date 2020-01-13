@@ -18,12 +18,23 @@ public class Dog extends Animal{
         this.owner = owner;
     }
 
-    void speak() {
+    @Override
+    public void speak() {
         System.out.println("Dog " + getName() + " says 'Woof'");
     }
 
-    void play() {
-        System.out.println("Dog " + getName() + " is chasing toy in living room");
+    @Override
+    public void play() {
+        System.out.println(owner + "'s dog " + getName() + " is chasing toy in living room");
+    }
+
+    @Override
+    public void play(String toy) {
+        if (toy == null || toy.isBlank() || toy.isEmpty()) {
+            return;
+        }
+
+        System.out.println(owner + "'s dog " + getName() + " is playing with a " + toy);
     }
 }
 

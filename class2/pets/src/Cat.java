@@ -19,14 +19,22 @@ public class Cat extends Animal {
         System.out.println("Cat " + getName() + ": Purrrrrrr...");
     }
 
-    void speak() {
+    @Override
+    public void speak() {
         System.out.println("Cat " + getName() + " says 'Moew'");
     }
 
-    void play() {
-        System.out.println("Cat " + getName() + " jumps on a kitchen table");
+    @Override
+    public void play() {
+        System.out.println(furColor + " cat " + getName() + " jumps on a kitchen table");
     }
 
+    // an overload of function play with different argument
+    public void play(String toy) {
+        if (toy != null || !toy.isEmpty() || !toy.isBlank()) {
+            System.out.println("Cat " + getName() + " is playing with " + toy);
+        }
+    }
 }
 
 

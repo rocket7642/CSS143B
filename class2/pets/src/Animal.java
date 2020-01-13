@@ -21,4 +21,16 @@ public class Animal {
         this.gender = gender;
         this.age = age;
     }
+
+    public void play() {
+        System.out.println("Animal " + name + " could play");
+    }
+
+    public void play(String toy) {
+        System.out.println("Animal " + name + " could play with a toy like " + toy);
+    }
+
+    public void speak() {
+        System.out.println("Animal " + name + " may speak");
+    }
 }
