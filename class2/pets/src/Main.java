@@ -29,7 +29,7 @@ public class Main {
         System.out.println(""); // add a new line
 
         // call the overloaded play function
-        // let all the cats and dogs in the array play using play()
+        // let all the dogs in the array play using play()
         for (int i=0; i<animals.length; i++) {
             if (animals[i] instanceof Cat) {
                 continue;
