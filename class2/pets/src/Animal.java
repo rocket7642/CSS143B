@@ -1,4 +1,4 @@
-public class Animal {
+public abstract class Animal {
     private String name;
     private String gender;
     private int age;
@@ -22,15 +22,9 @@ public class Animal {
         this.age = age;
     }
 
-    public void play() {
-        System.out.println("Animal " + name + " could play");
-    }
+    public abstract void play();
 
-    public void play(String toy) {
-        System.out.println("Animal " + name + " could play with a toy like " + toy);
-    }
+    public abstract void play(String toy);
 
-    public void speak() {
-        System.out.println("Animal " + name + " may speak");
-    }
+    public abstract void speak();
 }
