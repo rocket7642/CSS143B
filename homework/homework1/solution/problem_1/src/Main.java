@@ -6,6 +6,7 @@ by [your name]
 public class Main {
     public static void main(String[] args) {
         System.out.println("testBinarySearch " + (testBinarySearch() ? "PASSED" : "FAILED"));
+        System.out.println("testBinarySearchInLargeArray " + (testBinarySearchInLargeArray() ? "PASSED" : "FAILED"));
     }
 
     // iterative binary search
@@ -16,6 +17,7 @@ public class Main {
         int end = data.length-1;
         while (start<=end) {
             int mid = (start + end)/2;
+            //int mid = start + (end-start)/2;  // fix for overflow
             if (data[mid]==target) {
                 return mid;
             }
@@ -25,8 +27,39 @@ public class Main {
                 end = mid-1;
             }
         }
-
         return -1;
+    }
+
+    public static boolean testBinarySearchInLargeArray() {
+
+        int maxInteger = Integer.MAX_VALUE;
+
+        System.out.println("maximum integer is " + maxInteger);
+
+        int hugeArraySize = maxInteger/3*2;
+        int hugeArray[] = new int[hugeArraySize];
+        for (int i=0; i<hugeArray.length; i++) {
+            hugeArray[i] = i;
+        }
+
+        int targets[] = {hugeArray.length/2, hugeArray.length-1};
+        int expected[] = {hugeArray.length/2, hugeArray.length-1};
+
+        for (int i=0; i<targets.length; i++) {
+            try {
+                int actual = binarySearch(hugeArray, targets[i]);
+                if (actual!=expected[i]) {
+                    System.out.printf("testBinarySearchInLargeArray: case %d failed. Expected %d, actual %d\n",
+                            i, expected[i], actual);
+                    return false;
+                }
+            } catch (Exception e) {
+                System.out.printf("testBinarySearchInLargeArray: case %d failed. Expected %d. \nException: %s\n",
+                        i, expected[i], e.toString());
+                return false;
+            }
+        }
+        return true;
     }
 
     public static boolean testBinarySearch() {
