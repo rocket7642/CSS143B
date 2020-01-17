@@ -1,18 +1,18 @@
-## Snow Wonder Land
+## Snow Wonderland
 
 ### Basic Info
 
     - Assigned: 01/16/2020
-    - Due: 01/20/2019 Monday 11:59pm
+    - Due: 01/21/2019 Tuesday 11:59pm
 
 ### Submission 
-Put your solutions into 4 folders called problem_1, problem_2, problem_3 and problem 4. Zip all three folders them into a single file and submit through canvas. Only the Main.java files in all three folders will be used for grading.
+Put your solutions (all .java files but nothing else) into 3 folders called problem_1, problem_2, and problem_3. Zip all three folders them into a single file and submit through canvas. Only the java files in all three folders will be used for grading.
     
 ### Problems To Solve
 
-There are 4 problems. 
+There are 3 problems. 
 
-Problem 1, 2 and 3 and 4 are all in their separate folders with description. 
+Problem 1, 2 and 3 are all in their separate folders with description. 
     
 ### Notes
 
