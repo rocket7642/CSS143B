@@ -33,7 +33,7 @@ public StackElement getMin() {
 }
 ```
 
-### Implement the getMin() function (10pt)
+### Implement the getMin() function (20pt)
 The return values of getMin() is smilar to what we had in findMax(). If the minimal element does not exist, for example it's an empty stack, it should return StackElement{-1, false}. 
 
 ### Add tests to verify getMin() (10pt)
