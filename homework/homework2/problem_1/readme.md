@@ -11,7 +11,7 @@ A few examples:
 - Input: [1,1,1,2,1,0], Output: [0,1,1,1,1,2]
 - Input: [1,0,2,0,2], Output: [0,0,1,2,2]
 
-The solution can only make up to two passes through the array without any additional array. O(1) storage complexity if you know the fancy terms. That means you can only go through the entire array no more than 2 times. 
+The solution can only make up to two passes through the array without any additional array. O(1) space complexity if you know the fancy terms. That means you can only go through the entire array no more than 2 times. 
 
 Extra credit: 5pt to have a solution that make only one pass with O(1) space too.
 
