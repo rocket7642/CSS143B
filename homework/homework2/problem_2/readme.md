@@ -6,7 +6,7 @@ A stack is defined as a FIRST IN LAST OUT data structure with the following oper
 
 - boolean push(int v) : add an integer v onto the top stack, and return a boolean indicating whether push was successful
 - boolean pop() : remove an integer from the top of the stack, and return a boolean indicating whether pop was successful
-- int peek() : return the value at the top of the stack
+- StackElement peek() : return the value at the top of the stack
 
 ### The ArrayStack Class (10pt)
 
