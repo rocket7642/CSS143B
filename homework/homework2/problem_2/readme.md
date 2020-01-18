@@ -16,6 +16,8 @@ Following the exmaple of ArrayQueue from class, implement the following function
 - peek
 - constructor ArrayStack
 
+By its name, similar to the ArrayQueue example we saw in class, internally an interger array is used to store the actual data.
+
 ### Tests for the ArrayStack Class (10pt)
 
 Following the exmaple of ArrayStack from class, implement the following functions in Tests.java:
