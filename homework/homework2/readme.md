@@ -6,7 +6,7 @@
     - Due: 01/21/2019 Tuesday 11:59pm
 
 ### Submission 
-Put your solutions (all .java files but nothing else) into 3 folders called problem_1, problem_2, and problem_3. Zip all three folders into a single file and submit through canvas. Only the java files in all three folders will be used for grading.
+Put your solutions (all .java files but nothing else) into 3 folders called problem_1, problem_2, and problem_3. Zip all three folders into a single file and submit through canvas. Only the java files in all three folders will be used for grading. This is used for grading script and you will receive **ZERO** point if this is not followed.
     
 ### Problems To Solve
 
