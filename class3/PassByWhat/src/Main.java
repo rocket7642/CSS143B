@@ -1,12 +1,10 @@
 public class Main {
-    public static String testStringAssignment(String str) {
+    public static void testStringAssignment(String str) {
         str = "changing to a new string in testStringAssignment";
-        return str;
     }
 
-    public static String testStringImmutable(String str) {
+    public static void testStringImmutable(String str) {
         str = str.concat("adding some new chars from testStringImmutable");
-        return str;
     }
 
     public static StringBuilder testStringBuilder(StringBuilder builder) {
