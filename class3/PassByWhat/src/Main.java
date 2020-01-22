@@ -30,8 +30,5 @@ public class Main {
         builder.append("sky is blue");
         testStringBuilder(builder);
         System.out.println("After calling testStringBuilder: " + builder.toString());
-
-
-
     }
 }
