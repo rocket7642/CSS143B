@@ -4,12 +4,11 @@ public class Main {
     }
 
     public static void testStringImmutable(String str) {
-        str = str.concat("adding some new chars from testStringImmutable");
+        str.concat("adding some new chars from testStringImmutable");
     }
 
-    public static StringBuilder testStringBuilder(StringBuilder builder) {
-        builder = builder.append(", adding new strings from testStringBuilder");
-        return builder;
+    public static void testStringBuilder(StringBuilder builder) {
+        builder.append(", adding new strings from testStringBuilder");
     }
 
     public static void main(String[] args) {
