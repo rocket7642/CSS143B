@@ -20,7 +20,7 @@ By its name, similar to the ArrayQueue example we saw in class, internally an in
 
 ### Tests for the ArrayStack Class (10pt)
 
-Following the exmaple of ArrayStack from class, implement the following functions in Tests.java:
+Following the exmaple of ArrayQueue from class, implement the following functions in Tests.java:
 - testArrayStackOfSizeOne
 - testArrayStackOfSizeTwo
 - testArrayStackOfSizeThree
