@@ -95,7 +95,7 @@ public class ArrayQueue implements Queue {
   private int front;
   private int end;
   
-  // dequeue return true when dequeue is successful. false otherwise.
+  // dequeue return QueueElement.isValid==true when dequeue is successful. false otherwise.
   @Override
   public QueueElement dequeue(int val) {
 
