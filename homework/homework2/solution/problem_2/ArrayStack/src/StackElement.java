@@ -1,5 +1,3 @@
-import java.util.Objects;
-
 public class StackElement {
     private int data;
     private boolean isValid;

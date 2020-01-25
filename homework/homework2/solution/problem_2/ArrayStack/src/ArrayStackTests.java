@@ -18,7 +18,7 @@ public class ArrayStackTests {
         String testName = "testArrayStackOfSizeOne";
 
         stack.push(99);
-        if (stack.size()!=1) {
+        if (stack.size() != 1) {
             printFailMessage(testName, "size wrong", String.valueOf(1), String.valueOf(stack.size()));
             return false;
         }
@@ -27,12 +27,12 @@ public class ArrayStackTests {
         StackElement expectedItem = new StackElement(99, true);
         if (!actualItem.equals(expectedItem)) {
             printFailMessage(testName, "peek wrong",
-                                actualItem.toString(), expectedItem.toString());
+                    actualItem.toString(), expectedItem.toString());
             return false;
         }
 
         stack.pop();
-        if (stack.size()!=0) {
+        if (stack.size() != 0) {
             printFailMessage(testName, "pop wrong", String.valueOf(0), String.valueOf(stack.size()));
             return false;
         }
@@ -61,7 +61,7 @@ public class ArrayStackTests {
         }
 
         stack.pop();
-        if (stack.size()!=1) {
+        if (stack.size() != 1) {
             printFailMessage(testName, "pop wrong", String.valueOf(1), String.valueOf(stack.size()));
             return false;
         }
@@ -92,7 +92,7 @@ public class ArrayStackTests {
         }
 
         stack.pop();
-        if (stack.size()!=2) {
+        if (stack.size() != 2) {
             printFailMessage(testName, "pop wrong", String.valueOf(2), String.valueOf(stack.size()));
             return false;
         }
@@ -111,7 +111,7 @@ public class ArrayStackTests {
                     String.valueOf(false), String.valueOf(succeeded));
             return false;
         }
-        if (stack.size()!=3) {
+        if (stack.size() != 3) {
             printFailMessage(testName, "size wrong", String.valueOf(3), String.valueOf(stack.size()));
             return false;
         }

@@ -5,7 +5,8 @@ public class ArrayStack implements Stack {
     private int data[];
     private int size;
 
-    private ArrayStack() {}
+    private ArrayStack() {
+    }
 
     public ArrayStack(int size) {
         data = new int[size];
@@ -14,7 +15,7 @@ public class ArrayStack implements Stack {
 
     @Override
     public boolean pop() {
-        if (size==0) {
+        if (size == 0) {
             return false;
         }
         size--;
@@ -23,7 +24,7 @@ public class ArrayStack implements Stack {
 
     @Override
     public boolean push(int val) {
-        if (size==data.length) {
+        if (size == data.length) {
             return false;
         }
         data[size] = val;
@@ -33,10 +34,10 @@ public class ArrayStack implements Stack {
 
     @Override
     public StackElement peek() {
-        if (size==0) {
+        if (size == 0) {
             return new StackElement(-1, false);
         }
-        return new StackElement(data[size-1], true);
+        return new StackElement(data[size - 1], true);
     }
 
     @Override
