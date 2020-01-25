@@ -1,3 +1,5 @@
+import java.util.Objects;
+
 public class StackElement {
     private int data;
     private boolean isValid;
@@ -26,5 +28,14 @@ public class StackElement {
     @Override
     public String toString() {
         return "{" + "data:" + data + ", isValid:" + String.valueOf(isValid) + '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        StackElement element = (StackElement) o;
+        return data == element.data &&
+                isValid == element.isValid;
     }
 }

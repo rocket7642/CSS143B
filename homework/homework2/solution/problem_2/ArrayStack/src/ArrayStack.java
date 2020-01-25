@@ -1,35 +1,54 @@
+import java.util.Arrays;
+
 public class ArrayStack implements Stack {
 
     private int data[];
     private int size;
 
-
     private ArrayStack() {}
 
     public ArrayStack(int size) {
-        // homework
+        data = new int[size];
+        this.size = 0;
     }
 
     @Override
     public boolean pop() {
-        // homework
-        return false;   // placeholder
+        if (size==0) {
+            return false;
+        }
+        size--;
+        return true;
     }
 
     @Override
     public boolean push(int val) {
-        // homework
-        return false;   // placeholder
+        if (size==data.length) {
+            return false;
+        }
+        data[size] = val;
+        size++;
+        return true;
     }
 
     @Override
     public StackElement peek() {
-        // homework
-        return null;   // placeholder
+        if (size==0) {
+            return new StackElement(-1, false);
+        }
+        return new StackElement(data[size-1], true);
     }
 
     @Override
     public int size() {
         return size;
+    }
+
+    @Override
+    public String toString() {
+        return "ArrayStack{" +
+                "data=" + Arrays.toString(data) +
+                ", size=" + size +
+                '}';
     }
 }
