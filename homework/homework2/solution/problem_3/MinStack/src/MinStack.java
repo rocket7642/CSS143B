@@ -1,6 +1,6 @@
 public class MinStack extends ArrayStack {
 
-    ArrayStack auxStack;
+    private ArrayStack auxStack;
 
     public MinStack(int size) {
         super(size);
