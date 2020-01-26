@@ -4,7 +4,7 @@ public class SingleLinkedList {
     private int size;
 
     public SingleLinkedList() {
-        head = null;
+        head = new ListNode();  // dummy node
     }
 
     int size() {
@@ -24,7 +24,7 @@ public class SingleLinkedList {
         if (index<0 || index>=size) {
             return new Item(-1, false);
         }
-        ListNode ptr = head;
+        ListNode ptr = head.next;
         for (int i=0; i<index; i++) {
             if (ptr==null) {
                 return new Item(-1, false);
@@ -37,57 +37,36 @@ public class SingleLinkedList {
     // Appends the specified element to the end of this list
     public void add(int val) {
         size++;
-        ListNode newNode = new ListNode(val);
-
-        // when list is empty
-        if (head==null) {
-            head = newNode;
-            return;
-        }
-
-        // when list is not empty
         ListNode ptr = head;
         while (ptr.next!=null) {
             ptr = ptr.next;
         }
-        ptr.next = newNode;
+        ptr.next = new ListNode(val);
     }
 
     // Inserts the specified element at the beginning of this list
     public void addFirst(int val) {
         size++;
         ListNode newNode = new ListNode(val);
-
-        // when list is empty
-        if (head==null) {
-            head = newNode;
-            return;
-        }
-
-        // when list is not empty
-        newNode.next = head;
-        head = newNode;
+        newNode.next = head.next;
+        head.next = newNode;
     }
 
     // Removes and returns the first element from this list
     public void removeFirst() {
-        if (head==null) {
+        if (head.next==null) {
             return;
         }
-        head = head.next;
         size--;
+        head.next = head.next.next;
     }
 
     // Removes and returns the last element from this list
     public void removeLast() {
-        if (head==null) {
+        if (head.next == null) {
             return;
         }
         size--;
-        if (head.next == null) {
-            head = null;
-            return;
-        }
 
         ListNode p1 = head;
         ListNode p2 = head.next;
@@ -101,11 +80,8 @@ public class SingleLinkedList {
 
     @Override
     public String toString() {
-        if (head==null) {
-            return "";
-        }
         StringBuilder builder = new StringBuilder();
-        ListNode ptr = head;
+        ListNode ptr = head.next;
         do {
             builder.append(ptr.val + (ptr.next==null ? " -> end " : " -> "));
             ptr = ptr.next;
