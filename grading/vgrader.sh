@@ -20,16 +20,20 @@ function extract {
 		done
 }
 
-function run_homework {
+function run_one {
+	CLASSPATH=`pwd` 
+	javac -classpath $CLASSPATH Main.java;
+	java -classpath $CLASSPATH Main;
+	rm *.class
+}
+
+function run_all {
 	for f in *roblem* 
 	do
 		pushd $f > /dev/null
 		echo -----working in "$f"-----
 
-		CLASSPATH=`pwd` 
-		javac -classpath $CLASSPATH Main.java;
-		java -classpath $CLASSPATH Main;
-		rm *.class
+		run_one
 
 		popd > /dev/null
 	done
@@ -48,7 +52,9 @@ do
     case "$1" in
         --ex) extract 
             ;;
-        --run) run_homework 
+        --run_all) run_all 
+            ;;
+        --run_one) run_one 
             ;;
         --*) echo "bad option $1"
             ;;
