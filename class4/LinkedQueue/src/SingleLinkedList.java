@@ -57,8 +57,8 @@ public class SingleLinkedList {
         if (head.next==null) {
             return;
         }
-        size--;
         head.next = head.next.next;
+        size--;
     }
 
     // Removes and returns the last element from this list
