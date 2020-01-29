@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
@@ -35,7 +34,7 @@ public class Main {
         // this prevents re-allocating array as the
         // size of array increases when running the test
         List<Integer> list1 = new ArrayList<>(testSize);
-        for (int i=0; i<testSize; i++) {
+        for (int i = 0; i < testSize; i++) {
             list1.add(i, 0);
         }
 
@@ -51,8 +50,8 @@ public class Main {
     }
 
     private static void insertIntoList(List<Integer> list) {
-        for (int i=0; i<testSize; i++) {
-            list.add(0, i+1);
+        for (int i = 0; i < testSize; i++) {
+            list.add(0, i + 1);
         }
     }
 }
