@@ -6,25 +6,12 @@ import java.util.concurrent.TimeUnit;
 
 public class Main {
 
-    //private static int testSize = 100000;
-    private static int testSize = 20000*15;
+    private static int factor = 2;
+    private static int testSize = 100000 * factor;
 
     public static void main(String[] args) {
 
         testArrayListInsertion();
-
-        /*
-        try
-        {
-            System.out.println("Pausing for 5 sec...");
-            Thread.sleep(5000);
-            System.out.println("Go!");
-        }
-        catch(InterruptedException ex)
-        {
-            Thread.currentThread().interrupt();
-        }
-        */
 
         testLinkedListInsertion();
 
@@ -32,9 +19,11 @@ public class Main {
 
     private static void testLinkedListInsertion() {
         List<Integer> list2 = new LinkedList<>();
+
+        // timing method based on https://howtodoinjava.com/java/date-time/execution-elapsed-time/
         long startTime = System.nanoTime();
 
-        insertIntoLinkedList(list2);
+        insertIntoList(list2);
 
         long endTime = System.nanoTime();
         long durationInMillis = TimeUnit.NANOSECONDS.toMillis(endTime - startTime);
@@ -44,6 +33,8 @@ public class Main {
 
     private static void testArrayListInsertion() {
         // allocate and prefill the arraylist
+        // this prevents re-allocating array as the
+        // size of array increases when running the test
         List<Integer> list1 = new ArrayList<>(testSize);
         for (int i=0; i<testSize; i++) {
             list1.add(i, 0);
@@ -52,7 +43,7 @@ public class Main {
         // timing method based on https://howtodoinjava.com/java/date-time/execution-elapsed-time/
         long startTime = System.nanoTime();
 
-        insertIntoArrayList(list1);
+        insertIntoList(list1);
 
         long endTime = System.nanoTime();
         long durationInMillis = TimeUnit.NANOSECONDS.toMillis(endTime - startTime);
@@ -61,14 +52,7 @@ public class Main {
 
     }
 
-    private static void insertIntoArrayList(ArrayList<Integer> list) {
-        for (int i=0; i<testSize; i++) {
-            list.add(0, i+1);
-        }
-    }
-
-    private static void insertIntoLinkedList(List<Integer> list) {
-
+    private static void insertIntoList(List<Integer> list) {
         for (int i=0; i<testSize; i++) {
             list.add(0, i+1);
         }
