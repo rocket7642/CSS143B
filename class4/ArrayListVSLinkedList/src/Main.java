@@ -28,7 +28,6 @@ public class Main {
         long endTime = System.nanoTime();
         long durationInMillis = TimeUnit.NANOSECONDS.toMillis(endTime - startTime);
         System.out.println("insert into LinkedList : " + durationInMillis);
-
     }
 
     private static void testArrayListInsertion() {
@@ -49,7 +48,6 @@ public class Main {
         long durationInMillis = TimeUnit.NANOSECONDS.toMillis(endTime - startTime);
 
         System.out.println("insert into ArrayList : " + durationInMillis);
-
     }
 
     private static void insertIntoList(List<Integer> list) {
