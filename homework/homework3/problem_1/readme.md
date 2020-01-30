@@ -34,6 +34,37 @@ The following test cases are required, each worth 2pt:
 - list with three nodes, same value
 - list with three nodes, different values
 
+### 2. (20pt) Implement the remove function
+```java
+    public int remove(int valueToRemove) {
+    // homework
+    return 0; // place holder
+}
+```
+This function removes *all* nodes whose val == valueToRemove and returns the number of node actually removed.
+
+For example: 
+
+- If the list is 1->2->3, after calling the remove(3) the list will be 1->2, and return 1
+- If the list is 1->2->4->2, after calling remove(2) the list will be 1->4, and return 2
+- If the list is 1->1->4->2, after calling remove(1) the list will be 4->2, and return 2
+- if the list is 3->3->3->3, after calling remove(3) the list will be empty, and return 4
+- If the list is 1->1->4->2, after calling remove(5) the list will still be 1->1->4->2, and return 0
+
+Complete the test in LinkedListTests.java
+```java
+public static void testRemove() {
+    // homework
+}
+```
+
+The following test cases are required, each worth 2pt:
+
+- input is empty
+- input has one element
+- input has more than one elements without duplicates
+- input has more than one elements with duplicates
+- input has more than one elements, all elements being the same values
 
 ### 5. (10pt) Implement the linked list reversal in ***test/unit_tests.cpp***
 ```C++
