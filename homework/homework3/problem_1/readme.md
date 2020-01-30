@@ -26,7 +26,7 @@ and newList will be initialized as h->1->2->3.
 #### Add a test in testCopyConstructor()
 In LinkedListTests.java, complete the following test for the copy constructor：
 ```java
-public SingleLinkedList(SingleLinkedList list) {
+public static void testCopyConstructor() {
     // homework
 }
 ```
