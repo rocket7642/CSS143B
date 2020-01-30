@@ -39,11 +39,15 @@ function run_all {
 	done
 }
 
-if [ $# -eq 0 ]; then
+function show_options {
     echo "Options:"
     echo "	--ex to extract"
     echo "	--run to run"
 	echo "world at peace!"
+}
+
+if [ $# -eq 0 ]; then
+	show_options
     exit 1
 fi
 
@@ -56,7 +60,7 @@ do
             ;;
         --run_one) run_one 
             ;;
-        --*) echo "bad option $1"
+        --*) echo "bad option $1"; show_options
             ;;
         *) echo "argument $1"
             ;;
