@@ -1,6 +1,8 @@
 ## Linked List
 
-All the following problems is based on the SingleLinkedList *with a dummy node*.
+All the following problems are based on the SingleLinkedList *with a dummy node*. 
+
+Do not change any other part of the SingleLinkedList outside the homework functions without permission.
 
 ### 1. (30pt) Implement a copy constructor for SingleLinkedList
 A [copy constructor](https://www.baeldung.com/java-copy-constructor) initializes a list by making an identical copy of the values in all the nodes in the given list. 
