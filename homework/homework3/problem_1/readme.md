@@ -35,7 +35,6 @@ The following test cases are required, each worth 2pt:
 - list with one node
 - list with two nodes, different values
 - list with two nodes, same values
-- list with three nodes, same value
 - list with three nodes, different values
 
 ### 2. (20pt) Implement the remove function
@@ -49,6 +48,7 @@ This function removes *all* nodes whose val == valueToRemove and returns the num
 
 For example: 
 
+- If the list is empty, after calling the remove(ANY_VALUE), the list will still be empty and return 0 
 - If the list is 1->2->3, after calling the remove(3) the list will be 1->2, and return 1
 - If the list is 1->2->4->2, after calling remove(2) the list will be 1->4, and return 2
 - If the list is 1->1->4->2, after calling remove(1) the list will be 4->2, and return 2
@@ -62,13 +62,7 @@ public static void testRemove() {
 }
 ```
 
-The following test cases are required, each worth 2pt:
-
-- input is empty
-- input has one element
-- input has more than one elements without duplicates
-- input has more than one elements with duplicates
-- input has more than one elements, all elements being the same values
+Add test cases using the above examples. Each is worth 2 points.
 
 ### 3. (20pt) Implement the linked list reversal iteratively
 ```java
