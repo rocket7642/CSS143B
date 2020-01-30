@@ -9,13 +9,15 @@ public SingleLinkedList(SingleLinkedList list) {
 ```
 
 For example:
-Given a list that is  h->1->2->3, h is the head pointer. Run:
+Given a list that is  *h->1->2->3*, *h* is the head pointer. Run:
 ```java
 SingleLinkedList newList = new SingleLinkedList(list);
 ```
 and newList will be initialized as h->1->2->3.
 
-***Note:*** Not allowed to use the *size* member variable or any add functions including add(int val) and addFirst(int val) or zero points will be given for this problem.
+***Note:*** 
+- Not allowed to use the *size* member variable or any add functions including add(int val) and addFirst(int val) or zero points will be given for this problem.
+- This linkedlist has a dummy node
 
 #### Add a test in testCopyConstructor() (10pt)
 In LinkedListTests.java, complete the following test for the copy constructor：
