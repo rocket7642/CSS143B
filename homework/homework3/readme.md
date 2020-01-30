@@ -6,9 +6,9 @@
     - Due: 02/04/2020 Tuesday 11:59pm
 
 ### Submission 
-- Put your solutions (all .java files but nothing else) into 3 folders called problem_1, problem_2, and problem_3
+- Put your solutions (all .java, text and graph files but nothing else) into 3 folders called problem_1, problem_2, and problem_3
 - Zip all three folders into a single file and submit through canvas. 
-- Only the java files in all three folders will be used for grading. This naming format is used for grading script and you will receive **ZERO** point if this is not followed.
+- The naming format is used for grading script and you will receive **ZERO** point if this is not followed.
     
 ### Problems To Solve
 
