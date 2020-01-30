@@ -1,5 +1,5 @@
 ### 1. (30pt) Implement a copy constructor for SingleLinkedList
-A copy constructor copies values in each of the node in the given list into the calling list. 
+A (copy constructor)[https://www.baeldung.com/java-copy-constructor] initializes a list by making an identical copy of the values in all the nodes in the given list. 
 
 #### Implement the following copy constructor in SingleLinkedList.java (20pt)
 ```java
