@@ -2,11 +2,13 @@
 
 ### Basic Info
 
-    - Assigned: 01/16/2020
-    - Due: 01/22/2019 Wednesday 11:59pm
+    - Assigned: 01/29/2020
+    - Due: 02/04/2020 Tuesday 11:59pm
 
 ### Submission 
-Put your solutions (all .java files but nothing else) into 3 folders called problem_1, problem_2, and problem_3. Zip all three folders into a single file and submit through canvas. Only the java files in all three folders will be used for grading. This naming format is used for grading script and you will receive **ZERO** point if this is not followed.
+- Put your solutions (all .java files but nothing else) into 3 folders called problem_1, problem_2, and problem_3
+- Zip all three folders into a single file and submit through canvas. 
+- Only the java files in all three folders will be used for grading. This naming format is used for grading script and you will receive **ZERO** point if this is not followed.
     
 ### Problems To Solve
 
