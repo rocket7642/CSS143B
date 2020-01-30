@@ -1,4 +1,4 @@
-## ArrayList vs LinkedList Round 2: Remove(0)
+## (15pt) ArrayList vs LinkedList Round 2: Remove(0)
 
 In the lecture we saw the performance comparison for the *add(0, value)* function between ArrayList and LinkedList.
 
