@@ -1,4 +1,4 @@
-## Early Sun
+## Earlier Sun
 
 ### Basic Info
 
@@ -15,7 +15,16 @@
 There are 3 problems. 
 
 Problem 1, 2 and 3 are all in their separate folders with description. 
-    
+
+### Tests
+
+Without specific furhter instruction, the tests in this homework should all follow the same format in previous homeworks. In specific:
+
+- Tests should only produce "PASSED"/"SUCCEEDED" or "FAILED"
+- For the case of test fails, tests should print out enough debugging info to allow understanding the failure, for example which test case fails, what's the expected value, what's the actual value, and even call stack like which line of the code failed
+
+Points will be taken if this is not followed. Generally, you want to spend more time asking questions before submission but as you will hear from the video in problem 3, you want the grader to spend as little time on reviewing/grading your homework as possible. 
+
 ### Notes
 
 - Start early. Ask questions. Come to study group. 
