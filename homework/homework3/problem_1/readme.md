@@ -4,10 +4,10 @@ All the following problems are based on the SingleLinkedList *with a dummy node*
 
 Do not change any other part of the SingleLinkedList outside the homework functions without permission.
 
-### 1. (30pt) Implement a copy constructor for SingleLinkedList
+### 1. (20pt) Implement a copy constructor for SingleLinkedList
 A [copy constructor](https://www.baeldung.com/java-copy-constructor) initializes a list by making an identical copy of the values in all the nodes in the given list. 
 
-#### Implement the following copy constructor in SingleLinkedList.java (20pt)
+#### Implement the following copy constructor in SingleLinkedList.java
 ```java
 public SingleLinkedList(SingleLinkedList list) {
     // homework
@@ -23,7 +23,7 @@ and newList will be initialized as h->1->2->3.
 
 ***Note:*** Not allowed to use the *size* member variable or any add functions including add(int val) and addFirst(int val) or zero points will be given for this problem.
 
-#### Add a test in testCopyConstructor() (10pt)
+#### Add a test in testCopyConstructor()
 In LinkedListTests.java, complete the following test for the copy constructor：
 ```java
 public SingleLinkedList(SingleLinkedList list) {
