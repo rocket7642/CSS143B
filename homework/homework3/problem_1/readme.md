@@ -70,7 +70,7 @@ The following test cases are required, each worth 2pt:
 - input has more than one elements with duplicates
 - input has more than one elements, all elements being the same values
 
-### 3. (20pt) Implement the linked list reversal iteratively***
+### 3. (20pt) Implement the linked list reversal iteratively
 ```java
 public void reverseIterative() {
     // homework 
@@ -85,6 +85,22 @@ reverseIterative() reverses the order of nodes (**not just the value**) in a lin
 * If the list has 1->2->3->4, after calling the reverseIterative() the list will be 4->3->2->1
 
 reverseIterative() works by changing the order of existing nodes without creating any new node or changing the value of any node. This is to be done iteratively which means recursion is not allowed.
+
+Complete the test in LinkedListTests.java
+```java
+public static void testReverseIterative() {
+    // homework
+}
+```
+
+The following test cases are required, each worth 2pt:
+
+- input is empty
+- input has 1 element
+- input has 2 elements without duplicates
+- input has 2 elements with duplicates
+- input has 3 elements without duplicates
+- input has 5 elements without duplicates
 
 ### 4. Merge two sorted linked list (20pt) 
 Implement a merge function to merge the given list into the calling list. Assuming values in both lists are ***Sorted***.
