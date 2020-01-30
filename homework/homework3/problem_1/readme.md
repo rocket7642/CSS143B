@@ -105,7 +105,7 @@ public void mergeSorted(SingleLinkedList listToMerge) {
 }
 ```
 
-The mergeSorted function merge all values from the list in the parameter to it's own list while ***maintaining the ascending order***. Merge should not change anything in the input list. New nodes will be created in the calling list to accomodate the values from the external list.
+The mergeSorted function merges all values from the list in the parameter to it's own list while ***maintaining the ascending order***. Merge should not change anything in the input list. New nodes will be created in the calling list to accomodate the values from the external list.
 
 For example:
 
