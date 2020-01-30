@@ -1,23 +1,12 @@
-## (15pt) ArrayList vs LinkedList Round 2: Remove(0)
+## (5pt) Cleaner Code
 
-In the lecture we saw the performance comparison for the *add(0, value)* function between ArrayList and LinkedList.
+Watch the following video:
 
-This homework is based on the same code but now we are comparing the performance of *remove(0)*.
+[![Video](http://img.youtube.com/vi/QiaDztJZO5Q/0.jpg)](https://youtu.be/QiaDztJZO5Q)
 
-Here's the definition of the remove(index) function
-```java
-E remove(int index)
+And write a text files listing what you learned about his talk.
 
-Removes the element at the specified position in this list (optional operation). 
-Shifts any subsequent elements to the left (subtracts one from their indices). 
-Returns the element that was removed from the list.
-```
-
-Complete the following:
-
-- Add calls to this function in removeFirstFromList(List<Integer> list) in Main.java
-- Run this test with various test sizes similar to what was shown in lecture
-- Plot the time on a graph (pick your file format)
-- Write a small text file explaning what you have observed from the experiment especially if you have anything new from what's discussed in class.
-  
-Submit the Main.java file, the graph and the text file.
+- Bring out your submission of the [color sort](https://github.com/pdgetrf/CSS143B/tree/master/homework/homework2/problem_1) homework, both java files
+- Make some improvement based on what you learned from this talk. Write comments on what you changed.
+- Submit both the old and new code in two different folders.
+- Note that your tests should still pass or zero point for this problem.
