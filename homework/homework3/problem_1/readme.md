@@ -86,18 +86,30 @@ reverse_iterative() reverses the order of node (**not just the value**) in a lin
 
 reverse_iterative() works by changing the order of existing nodes without creating any new node or changing value of any node. This is to be done iteratively which means recursion is not allowed.
 
-Complete the test in LinkedListTests.java
+### 4. Merge two sorted linked list (20pt) 
+Implement a merge function to merge the given list into the calling list. Assuming values in both lists are ***Sorted***.
+    
 ```java
-public static void testReverseIterative() {
+public void mergeSorted(SingleLinkedList listToMerge) {
     // homework
 }
 ```
 
-The following test cases are required, each worth 2pt:
+The mergeSorted function merge all values from the list in the parameter to it's own list while ***maintaining the ascending order***. Merge should not change anything in the input list. New nodes will be created in the calling list to accomodate the values from the external list.
 
-- list is empty
-- list has one element
-- list has two elements
-- list has three elements without duplicates
-- list has three elements with duplicates
-- list has three elements with identical value
+For example:
+
+* If current list is empty, and the other list is also empty, after merge the current list will still be empty
+* If the current list is 1->3, and the other list is 2->4, after merge the current list will be 1->2->3->4
+* If the current list is 1->3, and the other list is 4->5, after merge the current list will be 1->3->4->5
+* If the current list is 6->7->8, and the other list is 4->5, after merge the current list will be 4->5->6->7->8
+* If the current list is 3->3->8, and the other list is 2->5, after merge the current list will be 2->3->3->5->8
+
+Complete the test in LinkedListTests.java
+```java
+public static void testMergeSorted() {
+    // homework
+}
+```
+
+Add test cases using the above examples. Each worth 2pt.
