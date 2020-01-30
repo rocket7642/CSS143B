@@ -2,7 +2,7 @@
 
 ### Basic Info
 
-    - Assigned: 01/29/2020
+    - Assigned: 01/30/2020
     - Due: 02/04/2020 Tuesday 11:59pm
 
 ### Submission 
