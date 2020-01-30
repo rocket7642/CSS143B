@@ -52,7 +52,6 @@ public class Main {
     private static void removeFirstFromList(List<Integer> list) {
         for (int i = 0; i < testSize; i++) {
             // homework
-            list.remove(0);
         }
     }
 }
