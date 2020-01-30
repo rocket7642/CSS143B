@@ -77,7 +77,7 @@ public class LinkedListTests extends Tests {
             return;
         }
 
-        System.out.println("testListWithOneElement SUCCEEDED");
+        System.out.println("testListWithOneElement PASSED");
     }
 
     private static void testEmptyList() {
@@ -100,6 +100,6 @@ public class LinkedListTests extends Tests {
             System.out.println("testEmptyList FAILED");
             return;
         }
-        System.out.println("testEmptyList SUCCEEDED");
+        System.out.println("testEmptyList PASSED");
     }
 }
