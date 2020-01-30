@@ -70,7 +70,7 @@ The following test cases are required, each worth 2pt:
 - input has more than one elements with duplicates
 - input has more than one elements, all elements being the same values
 
-### 5. (20pt) Implement the linked list reversal in ***test/unit_tests.cpp***
+### 3. (20pt) Implement the linked list reversal in ***test/unit_tests.cpp***
 ```java
 public void reverse_iterative() {
     // homework 
