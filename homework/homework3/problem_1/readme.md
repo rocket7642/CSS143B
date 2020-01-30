@@ -110,6 +110,7 @@ The mergeSorted function merges all values from the list in the parameter to it'
 For example:
 
 * If current list is empty, and the other list is also empty, after merge the current list will still be empty
+* If current list is 7->8->9, and the other list is empty, after merge the current list does not change
 * If the current list is 1->3, and the other list is 2->4, after merge the current list will be 1->2->3->4
 * If the current list is 1->3, and the other list is 4->5, after merge the current list will be 1->3->4->5
 * If the current list is 6->7->8, and the other list is 4->5, after merge the current list will be 4->5->6->7->8
