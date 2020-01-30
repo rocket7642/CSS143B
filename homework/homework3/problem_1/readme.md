@@ -70,21 +70,21 @@ The following test cases are required, each worth 2pt:
 - input has more than one elements with duplicates
 - input has more than one elements, all elements being the same values
 
-### 3. (20pt) Implement the linked list reversal in ***test/unit_tests.cpp***
+### 3. (20pt) Implement the linked list reversal iteratively***
 ```java
-public void reverse_iterative() {
+public void reverseIterative() {
     // homework 
 }
 ```
 
-reverse_iterative() reverses the order of node (**not just the value**) in a linked list. For example:
+reverseIterative() reverses the order of nodes (**not just the value**) in a linked list. For example:
 
-* If the list is empty, after calling the reverse_iterative() the list will still be empty
-* If the list has 1, after calling the reverse_iterative() the list will be 1
-* If the list has 1->2->3, after calling the reverse_iterative() the list will be 3->2->1
-* If the list has 1->2->3->4, after calling the reverse_iterative() the list will be 4->3->2->1
+* If the list is empty, after calling the reverseIterative() the list will still be empty
+* If the list has 1, after calling the reverseIterative() the list will be 1
+* If the list has 1->2->3, after calling the reverseIterative() the list will be 3->2->1
+* If the list has 1->2->3->4, after calling the reverseIterative() the list will be 4->3->2->1
 
-reverse_iterative() works by changing the order of existing nodes without creating any new node or changing value of any node. This is to be done iteratively which means recursion is not allowed.
+reverseIterative() works by changing the order of existing nodes without creating any new node or changing the value of any node. This is to be done iteratively which means recursion is not allowed.
 
 ### 4. Merge two sorted linked list (20pt) 
 Implement a merge function to merge the given list into the calling list. Assuming values in both lists are ***Sorted***.
