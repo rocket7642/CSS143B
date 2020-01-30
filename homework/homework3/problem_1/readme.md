@@ -97,7 +97,7 @@ The following test cases are required, each worth 2pt:
 - input has 5 elements without duplicates
 
 ### 4. Merge two sorted linked list (20pt) 
-Implement a merge function to merge the given list into the calling list. Assuming values in both lists are ***Sorted***.
+Implement a merge function to merge the given list into the calling list. Assuming values in both lists are ***Sorted in ascending order***.
     
 ```java
 public void mergeSorted(SingleLinkedList listToMerge) {
