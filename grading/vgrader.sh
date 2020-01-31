@@ -21,20 +21,31 @@ function extract {
 }
 
 function run_one {
+	find_and_remove_package
 	CLASSPATH=`pwd` 
 	javac -classpath $CLASSPATH Main.java;
 	java -classpath $CLASSPATH Main;
 	rm *.class
 }
 
+function find_and_remove_package {
+	for f in *.java; do
+		[ -f "$f" ] || break
+		if grep -q "package " "$f"; then
+			echo [vgrader] usage of package found 
+			sed -i.bak '/package com/d' *
+			echo [vgrader] usage of package removed 
+			return
+		fi
+	done
+}
+
 function run_all {
 	for f in *roblem* 
-	do
+		do
 		pushd $f > /dev/null
 		echo -----working in "$f"-----
-
 		run_one
-
 		popd > /dev/null
 	done
 }
@@ -42,7 +53,8 @@ function run_all {
 function show_options {
     echo "Options:"
     echo "	--ex to extract"
-    echo "	--run to run"
+    echo "	--run_all to run in all problem folder"
+    echo "	--run_one to run in the current folder"
 	echo "world at peace!"
 }
 
