@@ -33,7 +33,7 @@ function find_and_remove_package {
 		[ -f "$f" ] || break
 		if grep -q "package " "$f"; then
 			echo [vgrader] usage of package found 
-			sed -i.bak '/package com/d' *
+			sed -i.bak '/package /d' *
 			echo [vgrader] usage of package removed 
 			return
 		fi
