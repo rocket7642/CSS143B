@@ -25,7 +25,7 @@ public class Main {
         insertIntoList(list2);
 
         long endTime = System.nanoTime();
-        long durationInMillis = TimeUnit.NANOSECONDS.toMillis(endTime - startTime);
+        long durationInMillis = endTime - startTime;
         System.out.println("insert into LinkedList : " + durationInMillis);
     }
 
@@ -44,14 +44,12 @@ public class Main {
         insertIntoList(list1);
 
         long endTime = System.nanoTime();
-        long durationInMillis = TimeUnit.NANOSECONDS.toMillis(endTime - startTime);
+        long durationInMillis = endTime - startTime;
 
         System.out.println("insert into ArrayList : " + durationInMillis);
     }
 
     private static void insertIntoList(List<Integer> list) {
-        for (int i = 0; i < testSize; i++) {
-            list.add(0, i + 1);
-        }
+            list.add(0, 1);
     }
 }
