@@ -12,7 +12,6 @@ public class Main {
         if (n==0) {
             return 0;
         }
-
         return recursiveSum(data, n-1) + data[n-1];
     }
 
@@ -22,7 +21,7 @@ public class Main {
 
     public static int iterativeSum(int[] data) {
         int sum = 0;
-        for (Integer i : data) {
+        for (int i : data) {
             sum += i;
         }
         return sum;
