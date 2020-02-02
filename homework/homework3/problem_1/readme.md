@@ -21,8 +21,6 @@ SingleLinkedList newList = new SingleLinkedList(list);
 ```
 and newList will be initialized as h->1->2->3.
 
-***Note:*** Not allowed to use the *size* member variable or any add functions including add(int val) and addFirst(int val) or zero points will be given for this problem.
-
 #### Add a test in testCopyConstructor()
 In LinkedListTests.java, complete the following test for the copy constructor：
 ```java
