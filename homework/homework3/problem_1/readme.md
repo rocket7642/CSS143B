@@ -78,6 +78,8 @@ reverseIterative() reverses the order of nodes (**not just the value**) in a lin
 
 reverseIterative() works by changing the order of existing nodes without creating any new node or changing the value of any node. This is to be done iteratively which means recursion is not allowed.
 
+No additional storage like array, stack, queue or another linkedlist is allowed for this problem.
+
 Complete the test in LinkedListTests.java
 ```java
 public static void testReverseIterative() {
