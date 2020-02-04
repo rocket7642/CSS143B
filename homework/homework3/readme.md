@@ -3,7 +3,7 @@
 ### Basic Info
 
     - Assigned: 01/30/2020
-    - Due: 02/04/2020 Tuesday 11:59pm
+    - Due: 02/05/2020 Wednesday 11:59pm
 
 ### Submission 
 - Put your solutions (all .java, text and graph files but nothing else) into 3 folders called problem_1, problem_2, and problem_3
