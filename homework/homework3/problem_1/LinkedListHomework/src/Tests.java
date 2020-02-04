@@ -7,6 +7,14 @@ public class Tests {
         return true;
     }
 
+    public static boolean assertEquals(String expected, String actual) {
+        if (expected.equals(actual)) {
+            System.out.println("assertEquals failed. Expected: '" + expected + "', actual: '" + actual + "'");
+            return false;
+        }
+        return true;
+    }
+
     public static boolean assertTrue(boolean actual) {
         if (!actual) {
             System.out.println("assertEquals failed. Expected: " + true + ", actual: " + false);

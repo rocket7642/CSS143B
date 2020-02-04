@@ -7,6 +7,7 @@ public class LinkedListTests extends Tests {
         testMergeSorted();
         testEmptyList();
         testListWithMultipleElements();
+        testToString();
     }
 
     public static void testCopyConstructor() {
@@ -76,8 +77,23 @@ public class LinkedListTests extends Tests {
             System.out.println("testListWithOneElement FAILED");
             return;
         }
-
         System.out.println("testListWithOneElement PASSED");
+    }
+
+    private static void testToString() {
+        SingleLinkedList list = new SingleLinkedList();
+        assertTrue(list.toString().isEmpty());
+        list.add(1);
+        if (!assertEquals(list.toString(), "1 -> end")) {
+            System.out.println("testToString FAILED");
+            return;
+        }
+        list.add(2);
+        if (!assertEquals(list.toString(), "1 -> 2 -> end")) {
+            System.out.println("testToString FAILED");
+            return;
+        }
+        System.out.println("testToString PASSED");
     }
 
     private static void testEmptyList() {
@@ -97,6 +113,10 @@ public class LinkedListTests extends Tests {
             return;
         }
         if (!assertEquals(invalidItem, list.get(0))) {
+            System.out.println("testEmptyList FAILED");
+            return;
+        }
+        if (!assertTrue(list.toString().isEmpty())) {
             System.out.println("testEmptyList FAILED");
             return;
         }

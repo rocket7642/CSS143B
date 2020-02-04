@@ -99,10 +99,10 @@ public class SingleLinkedList {
     public String toString() {
         StringBuilder builder = new StringBuilder();
         ListNode ptr = head.next;
-        do {
+        while (ptr!=null) {
             builder.append(ptr.val + (ptr.next==null ? " -> end " : " -> "));
             ptr = ptr.next;
-        }while (ptr!=null);
+        };
 
         return builder.toString();
     }
