@@ -2,6 +2,9 @@ public class Main {
 
     // m rows, n columns
     public static int uniquePaths(int m, int n) {
+        if (m!=0 && n!=0) {
+            System.out.printf("%d,%d\n", m, n);
+        }
         if (m==0 || n==0) {
             return 0;
         }
@@ -14,7 +17,14 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        testUniquePaths();
+        int m=3, n=4;
+//        testUniquePaths();
+        if (args.length==2) {
+            m = Integer.valueOf(args[0]);
+            n = Integer.valueOf(args[1]);
+
+        }
+        uniquePaths(m,n);
     }
 
     public static void testUniquePaths() {
@@ -28,6 +38,7 @@ public class Main {
                 {2,2},
                 {2,4},
                 {3,5},
+                {10,20},
         };
 
         int expected[] = {0, 0, 0, 1, 1, 1, 2, 4, 15};
