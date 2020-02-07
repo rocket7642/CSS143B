@@ -7,7 +7,7 @@ public class SingleLinkedList {
         head = new ListNode();  // dummy node
     }
 
-    public void reverseIterative() {
+    public void reverseRecursive() {
        // homework
     }
 
