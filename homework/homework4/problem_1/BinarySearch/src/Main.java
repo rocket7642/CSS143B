@@ -14,6 +14,8 @@ public class Main {
         return -1; // place holder
     }
 
+    // binarySearch returns the index of the target location found in the array
+    // returns -1 if target not found.
     public static int binarySearchRecursive(int[] data, int target) {
        return binarySearch(data, target, 0, data.length-1);
     }
