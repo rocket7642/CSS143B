@@ -6,7 +6,7 @@
     - Due: 02/13/2020 Thursday 11:59pm
 
 ### Submission 
-- Put your solutions (all .java) into 3 folders called problem_1, problem_2, and problem_3
+- Put your solutions (all .java) into 4 folders called problem_1, problem_2, problem_3 and problem_4.
 - Zip all three folders into a single file and submit through canvas. 
 - The naming format is used for grading script and you will receive **ZERO** point if this is not followed.
     
@@ -14,7 +14,7 @@
 
 There are 4 problems. 
 
-Problem 1, 2, and 4 are all in their separate folders with description. 
+Problem 1, 2, 3 and 4 are all in their separate folders with description. 
 
 ### Tests
 
