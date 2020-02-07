@@ -14,7 +14,7 @@ For example
 
 A shell code is given
 ```java
-    private static void possibleParentheses(List<String> outs, int n) {
+    private static void possibleParentheses(List<String> outputs, int n) {
         // homework
     }
 ````
