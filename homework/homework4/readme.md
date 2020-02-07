@@ -1,12 +1,12 @@
-## Earlier Sun
+## Endless Rain
 
 ### Basic Info
 
-    - Assigned: 01/30/2020
-    - Due: 02/05/2020 Wednesday 11:59pm
+    - Assigned: 02/06/2020
+    - Due: 02/13/2020 Thursday 11:59pm
 
 ### Submission 
-- Put your solutions (all .java, text and graph files but nothing else) into 3 folders called problem_1, problem_2, and problem_3
+- Put your solutions (all .java) into 3 folders called problem_1, problem_2, and problem_3
 - Zip all three folders into a single file and submit through canvas. 
 - The naming format is used for grading script and you will receive **ZERO** point if this is not followed.
     
@@ -20,10 +20,10 @@ Problem 1, 2 and 3 are all in their separate folders with description.
 
 Without specific furhter instruction, the tests in this homework should all follow the same format in previous homeworks. In specific:
 
-- Tests should only produce "PASSED"/"SUCCEEDED" or "FAILED"
+- Tests should only print "PASSED" or "FAILED" and nothing else.
 - For the case of test fails, tests should print out enough debugging info to allow understanding the failure, for example which test case fails, what's the expected value, what's the actual value, and even call stack like which line of the code failed
 
-Points will be taken if this is not followed. Generally, you want to spend more time asking questions before submission but as you will hear from the video in problem 3, you want the grader to spend as little time on reviewing/grading your homework as possible. 
+Points will be taken if this is not followed.
 
 ### Notes
 
