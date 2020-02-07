@@ -1,30 +1,38 @@
-## Endless Rain
+## Dawn of The Winter
 
 ### Basic Info
 
-    - Assigned: 02/06/2020
-    - Due: 02/13/2020 Thursday 11:59pm
+    - Assigned: 01/08/2020
+    - Due: 01/12/2019 Sunday 11:59pm
 
 ### Submission 
-- Put your solutions (all .java) into 3 folders called problem_1, problem_2, and problem_3
-- Zip all three folders into a single file and submit through canvas. 
-- The naming format is used for grading script and you will receive **ZERO** point if this is not followed.
+Put your solutions into 3 folders called problem_1, problem_2 and problem_3. Zip all three folders into a single file and submit through canvas. Only the Main.java files in all three folders will be used for grading.
+
+The file structure should look like this:
+```bash
+pdu:~/submission$ tree
+.
+├── problem_1
+│   └── Main.java
+├── problem_2
+│   └── Main.java
+└── problem_3
+    └── Main.java
+```
     
 ### Problems To Solve
 
-There are 3 problems. 
+There are 4 problems. 
 
-Problem 1, 2 and 3 are all in their separate folders with description. 
+Problem 1, 2 and 3 are in their separate folders with description. 
 
-### Tests
+Problem 4 has 10 point as following: Send me a private message in Discord. Describe the following:
 
-Without specific furhter instruction, the tests in this homework should all follow the same format in previous homeworks. In specific:
-
-- Tests should only print "PASSED" or "FAILED" and nothing else.
-- For the case of test fails, tests should print out enough debugging info to allow understanding the failure, for example which test case fails, what's the expected value, what's the actual value, and even call stack like which line of the code failed
-
-Points will be taken if this is not followed.
-
+- Your full name
+- Your technical background. For example, What programming language do you know? Have you used Java before? If yes, on what kind of projects?
+- Your expectation to this class. What do you expect to learn?
+- Sense of the class so far and suggestions. Is it too fast? too slow? My accent is hard to understand? Need more explanation on topics?
+    
 ### Notes
 
 - Start early. Ask questions. Come to study group. 
