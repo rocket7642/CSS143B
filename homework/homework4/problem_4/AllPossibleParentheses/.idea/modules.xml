@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/QuickSortComplexity.iml" filepath="$PROJECT_DIR$/QuickSortComplexity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AllPossibleParentheses.iml" filepath="$PROJECT_DIR$/AllPossibleParentheses.iml" />
     </modules>
   </component>
 </project>
