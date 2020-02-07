@@ -2,8 +2,10 @@
 
 Implement binary search **recursively**
 
-Please add your iterative binary search from homework 1 to Main.java. The given tests will check both answers should match with the expected answer 
+This binary search returns the **array index** of the found target in the array. It returns -1 if target is not found.
 
-What music do you listen to when you code?
+Please add your iterative binary search from homework 1 to Main.java. The given tests will check both answers should match with the expected answer. 
 
-To focus on solving recursion problem, one can assume all data in the array are **prositive**. Return -1 if no target is found. 
+If there are multiple occurances of the target in the array, return the first one found. In this case the iterative solution might need to be updated to be consistent with the recursive version.
+
+Side question: What music do you listen to when you code?
