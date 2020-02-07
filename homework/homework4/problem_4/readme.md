@@ -1,6 +1,8 @@
 ## (30pt) All possible parentheses 
 
-### (20pt) Implement the function "possibleParentheses" to generate all valid parentheses of size N recursively
+### (20pt) Implement the function "possibleParentheses" to generate all valid parentheses of size n
+
+This is to be done **recursively** or zero points. 
 
 For example
 - when n = 1, result will be "{}"
