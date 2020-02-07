@@ -41,6 +41,7 @@ public class Main {
     }
 
     //https://mkyong.com/java/java-generate-random-integers-in-a-range/
+    // generate a random number between min and max
     private static int getRandomNumberInRange(int min, int max) {
         if (min >= max) {
             throw new IllegalArgumentException("max must be greater than min");
