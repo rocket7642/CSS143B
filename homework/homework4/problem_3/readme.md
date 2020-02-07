@@ -5,7 +5,7 @@ The following problems are based on the SingleLinkedList **with a dummy node**.
 Do not change any other part of the SingleLinkedList outside the homework functions without permission.
 
 
-### 3. (20pt) Implement the linked list reversal recursively
+### 3. (30pt) Implement the linked list reversal recursively
 ```java
 public void reverseRecursive() {
     // homework 
