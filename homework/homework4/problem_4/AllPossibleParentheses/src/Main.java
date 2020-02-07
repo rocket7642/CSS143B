@@ -1,11 +1,8 @@
+import java.util.List;
+
 public class Main {
 
-    // helper function
-    private void possibleParentheses(int pos, int n, int open, int close) {
-        // homework
-    }
-
-    private void possibleParentheses(int n) {
+    private static void possibleParentheses(List<String> outputs, int n) {
         // homework
     }
 

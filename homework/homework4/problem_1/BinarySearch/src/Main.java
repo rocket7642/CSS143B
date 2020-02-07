@@ -1,5 +1,5 @@
 /*
-CSS143B homework 1, problem 1
+CSS143B homework 4, problem 1
 by [your name]
  */
 
