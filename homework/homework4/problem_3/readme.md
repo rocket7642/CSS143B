@@ -1,6 +1,6 @@
 ## Linked List
 
-All the following problems are based on the SingleLinkedList *with a dummy node*. 
+The following problems are based on the SingleLinkedList **with a dummy node**. 
 
 Do not change any other part of the SingleLinkedList outside the homework functions without permission.
 
