@@ -21,7 +21,7 @@ A shell code is given
 
 Do not change the name and signature of this function. OK to add any other functions needed for possibleParentheses(...) to work.
 
-### (10pt) Write unit tests
+### (10pt) Unit tests
 
 Add unit tests to verify possibleParentheses(...) works correctly. Verify size of 1, 2 and 3 is good enough.
 
