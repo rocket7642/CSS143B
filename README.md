@@ -112,7 +112,7 @@ The following table provides an approximate, high-level ordering of topics, not 
 |  1/27, 1/29 | 4 | 1/27 Midterm & debugging and exception<br/>1/29 LinkedList ADT |
 |  2/3, 2/5 | 5 | 2/3 Stack and Queue ADT<br/>2/5 Recursion |
 |  2/10, 2/12 | 6 | 2/10 Binary (Search) Tree ADT and Binary Tree overall<br/>2/12 Special topic: A tale of two linkedlist reversals |
-|  2/17, 2/19 | 7 | 2/17 No lecture (Presidents' day)<br/>2/19 Midterm |
+|  2/17, 2/19 | 7 | 2/17 No lecture ([Presidents' day](https://www.washington.edu/students/reg/religcal.html#win20))<br/>2/19 Midterm |
 |  2/24, 2/26 | 8 | 2/24 Dictionary <br/>2/26 SortingAlgorithm & complexity analysis |
 |  3/2, 3/4 | 9 | 3/2 Compresive problem solving discussion<br/>3/4 Guest lecture |
 |  3/9, 3/11 | 10 | Buffer/Final review |
