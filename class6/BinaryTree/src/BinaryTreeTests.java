@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.assertEquals;
 
 public class BinaryTreeTests {
     @Test
@@ -23,7 +23,7 @@ public class BinaryTreeTests {
 
         for (int i = 0; i < expected.length; i++) {
             List<Integer> actual = trees.get(i).preorderTraversal();
-            assertTrue(actual.equals(getListFromArray(expected[i])));
+            assertEquals(actual, getListFromArray(expected[i]));
         }
     }
 
@@ -110,7 +110,7 @@ public class BinaryTreeTests {
         return trees;
     }
 
-    private List<Integer> getListFromArray(int [] data) {
+    private List<Integer> getListFromArray(int[] data) {
         return Arrays.stream(data).boxed().collect(Collectors.toList());
     }
 }
