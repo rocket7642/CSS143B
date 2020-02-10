@@ -1,7 +1,7 @@
 public class LinkedListTests extends Tests {
 
     public static void testAll() {
-        testToString();
+        testArrayConstructorAndToString();
         testGoToLastNode();
     }
 
@@ -34,7 +34,7 @@ public class LinkedListTests extends Tests {
         System.out.println("testGoToLastNode PASSED");
     }
 
-    private static void testToString() {
+    private static void testArrayConstructorAndToString() {
         int inputs[][] = {
                 {},
                 {1},
