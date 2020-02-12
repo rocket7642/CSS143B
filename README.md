@@ -48,7 +48,7 @@ Upon successful completion of the course, students shall be able to:
 | Course Work | Grading % |
 |-------------|-----------|
 | Homeworks | 30        |
-| In-class exercises      | 5        |
+| Quiz & In-class exercises      | 5        |
 | Midterm exam       | 40        |
 | Final exam      | 25        |
 | Total | 100 |
