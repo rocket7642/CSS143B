@@ -12,16 +12,29 @@ public class SingleLinkedList {
     }
 
     public SingleLinkedList(int[] data) {
-        /*
-         * in class exercise
-         */
+        ListNode ptr = null;
+        for (int i=0; i<data.length; i++) {
+            ListNode newNode = new ListNode(data[i]);
+            if (head==null) {
+                head = newNode;
+                ptr = head;
+                continue;
+            }
+            ptr.next = newNode;
+            ptr = ptr.next;
+        }
     }
 
     public ListNode getLast() {
-        /*
-         * in class exercise
-         */
-        return null;    // place holder
+        if (head == null) {
+            return null;
+        }
+        ListNode ptr = head;
+
+        while (ptr.next!=null) {
+            ptr = ptr.next;
+        }
+        return ptr;
     }
 
     @Override

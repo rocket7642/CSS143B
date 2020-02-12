@@ -75,6 +75,7 @@ public class SingleLinkedList {
             newNode.next = p0.next;
             p0.next = newNode;
             p1 = p1.next;
+            size++;
         }
     }
 

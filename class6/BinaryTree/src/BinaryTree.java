@@ -1,5 +1,8 @@
+import javax.management.ListenerNotFoundException;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
+import java.util.Stack;
 
 public class BinaryTree {
     TreeNode root;
@@ -12,26 +15,40 @@ public class BinaryTree {
         this.root = root;
     }
 
-    private void preorderTraversal(TreeNode node, List<Integer> result) {
-        if (node==null) {
-            return;
+    public List<Integer> preorderRecursive() {
+        // exercise
+        return Arrays.asList(1);
+    }
+
+    public List<Integer> inorderRecursive() {
+        // exercise
+
+        TreeNode node = root;
+
+        if (node.left==null && node.right==null) {
+
         }
-        result.add(node.val);
-        preorderTraversal(node.left, result);
-        preorderTraversal(node.right, result);
+
+        return Arrays.asList(1);
     }
 
-    List<Integer> preorderTraversal() {
-        List<Integer> result = new ArrayList<>();
-        preorderTraversal(root, result);
-        return result;
+    List<Integer> postorderRecursive() {
+        // exercise
+        return Arrays.asList(1);
     }
 
-    List<Integer> postorderTraversal() {
-        return null;
+    public List<Integer> preorderIterative() {
+        // exercise
+        return Arrays.asList(1);
     }
 
-    List<Integer> inorderTraversal() {
-        return null;
+    public int height() {
+        // exercise
+        return 0;
+    }
+
+    public int LCA_BST(int v1, int v2) {
+        // exercise
+        return 0;
     }
 }
