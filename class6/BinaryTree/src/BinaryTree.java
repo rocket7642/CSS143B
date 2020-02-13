@@ -20,24 +20,17 @@ public class BinaryTree {
         return Arrays.asList(1);
     }
 
+    public List<Integer> preorderIterative() {
+        // exercise
+        return Arrays.asList(1);
+    }
+
     public List<Integer> inorderRecursive() {
         // exercise
-
-        TreeNode node = root;
-
-        if (node.left==null && node.right==null) {
-
-        }
-
         return Arrays.asList(1);
     }
 
     List<Integer> postorderRecursive() {
-        // exercise
-        return Arrays.asList(1);
-    }
-
-    public List<Integer> preorderIterative() {
         // exercise
         return Arrays.asList(1);
     }
