@@ -8,7 +8,7 @@ public class Tests {
     }
 
     public static boolean assertEquals(String expected, String actual) {
-        if (expected.equals(actual)) {
+        if (!expected.equals(actual)) {
             System.out.println("assertEquals failed. Expected: '" + expected + "', actual: '" + actual + "'");
             return false;
         }

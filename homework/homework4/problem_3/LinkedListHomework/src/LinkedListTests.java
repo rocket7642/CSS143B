@@ -66,12 +66,12 @@ public class LinkedListTests extends Tests {
         SingleLinkedList list = new SingleLinkedList();
         assertTrue(list.toString().isEmpty());
         list.add(1);
-        if (!assertEquals(list.toString(), "1 -> end")) {
+        if (!assertEquals(list.toString(), "1 -> end ")) {
             System.out.println("testToString FAILED");
             return;
         }
         list.add(2);
-        if (!assertEquals(list.toString(), "1 -> 2 -> end")) {
+        if (!assertEquals(list.toString(), "1 -> 2 -> end ")) {
             System.out.println("testToString FAILED");
             return;
         }
