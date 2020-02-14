@@ -52,7 +52,7 @@ This is to be done with recursion.
     }
 ```
 
-This should follow the same code pattern as other provided complete unit tests such as for height:
+The unit tests should follow the same code pattern as other provided complete unit tests such as for height:
 
 ```java
     @Test
