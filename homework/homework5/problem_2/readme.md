@@ -25,7 +25,7 @@ Examples:
 
 
 
-### 2. (10pt) Add unit tests
+### 2. (15pt) Add unit tests
 
 Add tests in the following function:
 
@@ -36,4 +36,6 @@ public void reverseStack() {
     assertTrue(false);  // place holder
 }
 ```
+
+All the cases in the above examples need to be verified. 3pt per case. 
 
