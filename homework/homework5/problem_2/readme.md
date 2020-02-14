@@ -1,6 +1,6 @@
 ## Reverse A Stack Using Recursion (25pt)
 
-### 1. (15pt) Implement a function to reverse the values in a stack
+### 1. (10pt) Implement a function to reverse the values in a stack
 ```java
     void ReverseStack(Stack<Integer> stack) {
         // homework
@@ -25,7 +25,9 @@ Examples:
 
 
 
-Add unit tests in
+### 2. (10pt) Add unit tests
+
+Add tests in the following function:
 
 ```java
 @Test
