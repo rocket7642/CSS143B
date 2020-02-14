@@ -9,6 +9,4 @@ public class Main {
     void ReverseStack(Stack<Integer> stack) {
         // homework
     }
-
-
 }

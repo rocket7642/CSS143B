@@ -192,5 +192,5 @@ Given this tree
 
 - When n = 1, return 4
 
-- When n = 3, return 7
+- When n = 3, return 6
 - When n = 5, return 8
