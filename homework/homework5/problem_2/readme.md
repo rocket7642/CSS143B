@@ -37,5 +37,5 @@ public void reverseStack() {
 }
 ```
 
-All the cases in the above examples need to be verified. 3pt per case. 
+All the cases in the above examples need to be verified. 3pt per case. More cases are welcome.
 
