@@ -7,7 +7,7 @@
 
 ### Submission 
 - Put your solutions (all .java) into 4 folders called problem_1, problem_2, problem_3 and problem_4.
-- Zip all three folders into a single file and submit through canvas. 
+- Zip all folders into a single file and submit through canvas. 
 - The naming format is used for grading script and you will receive **ZERO** point if this is not followed.
     
 ### Problems To Solve
