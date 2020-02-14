@@ -14,6 +14,29 @@ public class BinaryTree {
         this.root = root;
     }
 
+    public List<Integer> inorderIterative() {
+        // homework
+        // to be done iteratively
+        return Arrays.asList(0); // place holder
+    }
+
+
+    public int LCA(int v1, int v2) {
+        // homework
+        return 0;  // place holder
+    }
+
+    public List<List<Integer>> levelOrderTraversal() {
+        // homework
+        // to be done iteratively
+        return null; // place holder
+    }
+
+    public int nthSmallestInBST(int n) {
+        // homework
+        return -1;  // place holder
+    }
+
     private void preorderRecursive(TreeNode node, List<Integer> result) {
         if (node == null) {
             return;
@@ -83,11 +106,6 @@ public class BinaryTree {
         return LCA_BST(root, v1, v2);
     }
 
-    public int LCA(int v1, int v2) {
-        // homework
-        return 0;
-    }
-
     private void postorderRecursive(TreeNode node, List<Integer> result) {
         if (node == null) {
             return;
@@ -117,21 +135,5 @@ public class BinaryTree {
         List<Integer> result = new ArrayList<>();
         inorderRecursive(root, result);
         return result;
-    }
-
-    public List<Integer> inorderIterative() {
-        // homework
-        return Arrays.asList(0); // place holder
-    }
-
-    public List<Integer> levelOrderTraversal() {
-        // homework
-        // to be done iteratively
-        return Arrays.asList(0); // place holder
-    }
-
-    public int kthSmallestInBST(int k) {
-        // homework
-        return -1;  // place holder
     }
 }

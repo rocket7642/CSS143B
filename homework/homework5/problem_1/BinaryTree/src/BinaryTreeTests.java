@@ -46,7 +46,7 @@ public class BinaryTreeTests {
     }
 
     @Test
-    public void kthSmallestInBST() {
+    public void nthSmallestInBST() {
         // homework
         // extra credit
         // get test cases from getBSTTestCases()
@@ -216,9 +216,9 @@ public class BinaryTreeTests {
         TreeNode root = new TreeNode(1);
         trees.add(new BinaryTree(root));
 
-        //      1
+        //      2
         //     / \
-        //    2   N
+        //    1   N
         root = new TreeNode(2);
         root.left = new TreeNode(2);
         trees.add(new BinaryTree(root));
