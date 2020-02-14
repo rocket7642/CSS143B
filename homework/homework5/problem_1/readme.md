@@ -52,7 +52,7 @@ This is to be done with recursion.
     }
 ```
 
-The unit tests should follow the same code pattern as other provided complete unit tests such as for height:
+The unit tests (same for part 3 and 4) should follow the same code pattern as other provided complete unit tests such as for height:
 
 ```java
     @Test
@@ -67,8 +67,7 @@ The unit tests should follow the same code pattern as other provided complete un
     }
 ```
 
-The array of expected will need to be filled up with the correct values, while the test cases should be obtained by calling getRegularTreeTestCases() instead. All test cases should PASS.
-
+The array of expected needs to be updated up with the correct values, while the test cases should be obtained by calling getRegularTreeTestCases() instead. All test cases should PASS.
 
 
 ### (25pt) Implement the level-order traversal for binary tree
