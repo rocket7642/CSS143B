@@ -16,7 +16,11 @@ There are 2 problems, all in their separate folders with description.
 
 ### Tests
 
-We are using [JUnit 4](https://junit.org/junit4/) for testing from this homework on. The Junit libraries are provided in [this folder](https://github.com/pdgetrf/CSS143B/tree/master/homework/homework5/junit). Please download both jar files to your desktop and add to your IDE. Note that we are not using build tools such as Maven. The steps to add Junit to project simply means adding the jar files to the project as libraries. [Here](https://www.360logica.com/blog/how-to-use-junit-library-in-java-project/) is a good instruction.
+We are using [JUnit 4](https://junit.org/junit4/) for testing from this homework on. The Junit libraries are provided in [this folder](https://github.com/pdgetrf/CSS143B/tree/master/homework/homework5/junit). Please download both jar files to your desktop and add to your IDE. Note that we are not using build tools such as Maven. The steps to add Junit to project simply means adding the jar files to the project as libraries. [Here](https://www.360logica.com/blog/how-to-use-junit-library-in-java-project/) is a good instruction. Here's a quick video I did that demos how to add Junit to a Java project for this homework in Intellij
+
+```
+[![how to add Junit to a Java project for this homework in Intellij](http://img.youtube.com/vi/urau9ghy7W0/0.jpg)](https://www.youtube.com/watch?v=urau9ghy7W0)
+```
 
 ### Notes
 
