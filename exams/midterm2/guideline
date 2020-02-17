@@ -1,0 +1,45 @@
+The following are some guidelines for midterm 2. 
+
+How to implement Stack and Queue with LinkedList? Do you use the head or tail for each operation?
+Difference in performance and utility between using array and linked list to implement stack and queue
+
+LinkedList
+	dummy node vs without dummy node, why using a dummy node? what does dummy node store?
+	different memory layout of array vs linked list
+	single vs double linked list
+	code:
+		insert to front and end, delete from front and end
+		reverse linkedlist iteratively
+		how to find if there's loop in a linked list
+	different between ArrayList and LinkedList (note, one word here meaning it's referring to java.util class)
+
+Recursion
+	stoping condition
+	the memory layout for function calls
+	memory stack vs memry heap. object created with new, is it in heap or stack?
+	StackOverflowError,  stack overflow attack
+	recursive sum, iterative sum
+	repeated subproblem and how to fix it? (unique paths, fibonacci sequence)
+	concept of backtracking in examples like unique paths and climbing stairs
+	code: 
+		print single linked list backward with a stack or recursion.
+		binary search (recursive and iterative)
+		quick sort, assuming partition function is given
+
+Binary Tree
+	A search problem: search in a random array, what are the methods and what are the pros and cons
+	Binary tree, binary search tree, definition
+	pre-order, in-order and post-order traversal
+	code: all 3 traversal with recurison, pre-order iteratively
+	code: 
+		how to check if a binary tree is a binary search tree
+		height of a tree
+		tree being balanced or not. how to check
+		LCA of binary search tree
+		perform a search in a binary search tree
+
+
+
+
+
+	
