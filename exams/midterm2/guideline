@@ -22,6 +22,7 @@ Recursion
 	repeated subproblem and how to fix it? (unique paths, fibonacci sequence)
 	concept of backtracking in examples like unique paths and climbing stairs
 	code: 
+		climbing stairs
 		print single linked list backward with a stack or recursion.
 		binary search (recursive and iterative)
 		quick sort, assuming partition function is given
