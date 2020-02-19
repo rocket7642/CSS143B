@@ -39,7 +39,7 @@ class Solution {
 }
 ```
 
-**3. Describe how quicksort works and explain how its relation to recursion**
+**3. Describe how quicksort works and explain its relation to recursion**
 
 ```bash
 
