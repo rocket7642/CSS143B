@@ -241,9 +241,9 @@ public class BinaryTreeTests {
         //        2
         //       /
         //      1
-        root = new TreeNode(1);
+        root = new TreeNode(3);
         root.left = new TreeNode(2);
-        root.left.left = new TreeNode(3);
+        root.left.left = new TreeNode(1);
         trees.add(new BinaryTree(root));
 
         //          1
