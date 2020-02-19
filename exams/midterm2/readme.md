@@ -7,7 +7,7 @@
 **1. Which of the following naturally suggests a recursive solution?**
 
 - (A) linear search over a set of characters.
-- (B) binary search over an unsorted data set.
+- (B) binary search over a sorted data set.
 - (C) multiplication of two numbers.
 - (D) printing a message to the console. 
 
