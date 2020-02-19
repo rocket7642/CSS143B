@@ -37,7 +37,7 @@ In the lecture we went through the concept of **Lowest Common Ancester (LCA)** f
     }
 ```
 
-This is to be done with recursion.
+This is to be done with recursion. You can assume both v1 and v2 exists in the tree and there's no duplicated values in the tree, meaning each node has a different value.
 
 
 
