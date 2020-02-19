@@ -1,4 +1,4 @@
-
+# EXAMPLE ONLY #
 
 ## 2020 Winter CSS143B Midterm 2 &nbsp; &nbsp; &nbsp; Student Name:
 
