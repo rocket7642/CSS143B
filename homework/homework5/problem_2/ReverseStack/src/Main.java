@@ -6,7 +6,7 @@ public class Main {
         // left empty
     }
 
-    void ReverseStack(Stack<Integer> stack) {
+    public static void ReverseStack(Stack<Integer> stack) {
         // homework
     }
 }
