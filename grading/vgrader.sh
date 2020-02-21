@@ -7,7 +7,7 @@ function extract {
 		echo "vGRADER: folder extract exists. aborted"
 		exit 1
 	fi
-	for f in *.zip 
+	for f in *.{zip,rar} 
 		do
 			student="${f%%_*}" 
 				folder="extract/$student"
@@ -15,7 +15,12 @@ function extract {
 				cp "$f" "$folder"	
 				pushd "$folder" > /dev/null 
 				echo vGRADER: extracting $f to $folder
-				unzip "$f" > /dev/null
+				if [ ${f: -4} == ".zip" ]
+				then
+					unzip "$f" > /dev/null
+				else
+					unrar x "$f" > /dev/null
+				fi
 				popd > /dev/null
 		done
 }
