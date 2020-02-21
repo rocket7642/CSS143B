@@ -220,7 +220,7 @@ public class BinaryTreeTests {
         //     / \
         //    1   N
         root = new TreeNode(2);
-        root.left = new TreeNode(2);
+        root.left = new TreeNode(1);
         trees.add(new BinaryTree(root));
 
         //      7
