@@ -28,7 +28,7 @@ function extract {
 function run_one {
 	find_and_remove_package
 	CLASSPATH=`pwd` 
-	javac -classpath $CLASSPATH Main.java;
+	javac -Xlint:unchecked -classpath $CLASSPATH Main.java;
 	java -classpath $CLASSPATH Main;
 	rm *.class
 }
